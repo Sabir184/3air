@@ -9,7 +9,7 @@ function DigitalCard({ CardImage, CardText }) {
       <Container>
         <Card className="digitalCardContainer" border="0">
           <Card.Img
-            style={{ height: '4rem', width: '6rem' }}
+            style={{ height: '4rem', width: 'rem' }}
             variant="top"
             src={CardImage}
           />
