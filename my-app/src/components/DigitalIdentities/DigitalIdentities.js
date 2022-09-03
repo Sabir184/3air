@@ -6,7 +6,7 @@ import SubHeader from '../Subheader/SubHeader';
 
 function DigitalIdentities() {
   return (
-    <Container className="fuild ">
+    <Container className="fuild CardContainerWrapper">
       <SubHeader
         subHeaderText={'Digital Identities'}
         firstText={'Trustless, secure, and private'}
