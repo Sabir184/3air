@@ -1,0 +1,16 @@
+.nftContainer {
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #84ecef;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 1080px) {
+  .nftContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
