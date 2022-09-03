@@ -1,5 +1,5 @@
 import './App.css';
-import PrimaryButton from './components/PrimaryButton';
+import PrimaryButton from './components/PrimaryButton/PrimaryButton';
 
 function App() {
   return (
