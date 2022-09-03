@@ -13,3 +13,17 @@
   display: flex;
   flex-direction: row;
 }
+
+@media only screen and (max-width: 1080px) {
+  .CardContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .HeaderSecondLine {
+    font-size: 2.2rem;
+  }
+  .HeaderFirstLine {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+}

@@ -2,6 +2,10 @@ import React from 'react';
 import SubHeader from '../Subheader/SubHeader';
 import FrictionlessCard from './FrictionlessCard';
 import './FrictionlessExperienceStyle.scss';
+import Stats from './Stats';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function FrictionlessExperience() {
   return (
@@ -33,6 +37,37 @@ function FrictionlessExperience() {
           CardText={'Stable, reliable and affordable'}
         />
       </div>
+
+      <Container className="statsContainer">
+        <div className="statsStyle">
+          <Col>
+            <Row>
+              <Stats StatNum={'1,000+'} StatText={'Mbps/user'} />
+            </Row>
+            <Col>
+              <Stats StatNum={'50km'} StatText={'base station range'} />
+            </Col>
+          </Col>
+
+          <Col>
+            <Row>
+              <Stats StatNum={'15,000'} StatText={'users/base station'} />
+            </Row>
+            <Col>
+              {' '}
+              <Stats
+                StatNum={'17,000 Mbps'}
+                StatText={'base station (x240 faster than mobile)'}
+              />{' '}
+            </Col>
+          </Col>
+        </div>
+        <Row>
+          <Col>
+            <img width={480} src="assets/diagram2.svg" />
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 }

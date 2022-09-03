@@ -1,0 +1,31 @@
+.statsContainer {
+  display: flex;
+  align-items: end;
+  margin-bottom: 20px;
+  background: linear-gradient(
+    140deg,
+    rgba(236, 22, 81, 1) 20%,
+    rgba(132, 236, 239, 1) 100%
+  );
+  border-radius: 15px;
+  padding: 40px 10px;
+}
+
+.statsStyle {
+  flex: 1;
+  display: flex;
+  padding-left: 15px;
+}
+
+.statNum {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.statText {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: -10px;
+  color: #fff;
+}
