@@ -1,0 +1,41 @@
+.CardContainerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.digitalCardContainer {
+  background: linear-gradient(
+    25deg,
+    rgba(231, 20, 99, 1) 0%,
+    rgba(182, 20, 90, 1) 100%
+  );
+  color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: left;
+  align-items: start;
+
+  padding: 20px;
+  width: 100%;
+}
+
+.CardContainerBottom {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 1080px) {
+  .CardContainerBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .digitalCardContainer {
+    margin: 20px 0;
+  }
+}

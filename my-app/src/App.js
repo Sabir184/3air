@@ -3,14 +3,20 @@ import FrictionlessExperience from './components/FrictionlessExperience/Friction
 import Header from './components/Header/Header';
 import Hero from './components/HeroSection/Hero';
 import DefiAndBanking from './components/DefiAndBanking/DefiAndBanking';
+import NFTsandOwnership from './components/NFTsAndOwnership/NFTsandOwnership';
+import DigitalIdentities from './components/DigitalIdentities/DigitalIdentities';
+import Architecture from './components/Architecture/Architecture';
 
 function App() {
   return (
     <>
-        <Header />
-        <Hero />
-        <FrictionlessExperience />
-        <DefiAndBanking />
+      <Header />
+      <Hero />
+      <FrictionlessExperience />
+      <DefiAndBanking />
+      <NFTsandOwnership />
+      <DigitalIdentities />
+      <Architecture />
     </>
   );
 }
