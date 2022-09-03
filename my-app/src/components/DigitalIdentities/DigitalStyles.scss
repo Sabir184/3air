@@ -1,10 +1,3 @@
-.CardContainerWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .digitalCardContainer {
   background: linear-gradient(
     25deg,
@@ -18,9 +11,9 @@
   justify-content: flex-start;
   text-align: left;
   align-items: flex-start;
-
+  align-items: start;
   padding: 20px;
-  width: 100%;
+  height: 100%;
 }
 
 .CardContainerBottom {

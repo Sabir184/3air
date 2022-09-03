@@ -42,27 +42,21 @@ function FrictionlessExperience() {
 
       <Container className="statsContainer">
         <div className="statsStyle">
-          <Col>
-            <Row>
-              <Stats StatNum={'1,000+'} StatText={'Mbps/user'} />
-            </Row>
-            <Col>
-              <Stats StatNum={'50km'} StatText={'base station range'} />
-            </Col>
-          </Col>
+          <div className="statsFirstBlock">
+            <Stats StatNum={'1,000+'} StatText={'Mbps/user'} />
+            <Stats StatNum={'50km'} StatText={'base station range'} />
+          </div>
 
-          <Col>
-            <Row>
-              <Stats StatNum={'15,000'} StatText={'users/base station'} />
-            </Row>
-            <Col>
-              {' '}
-              <Stats
-                StatNum={'17,000 Mbps'}
-                StatText={'base station (x240 faster than mobile)'}
-              />{' '}
-            </Col>
-          </Col>
+          <div className="statsFirstBlock">
+            <Stats StatNum={'15,000'} StatText={'users/base station'} />{' '}
+            <Stats
+              StatNum={'17,000 Mbps'}
+              StatText={'base station (x240 faster than mobile)'}
+            />
+          </div>
+        </div>
+        <div className="statsImageWraper">
+          <img width={480} src="assets/diagram2.svg" alt="diagram" />
         </div>
         <Row>
           <Col>

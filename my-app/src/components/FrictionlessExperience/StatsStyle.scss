@@ -2,6 +2,9 @@
   display: flex;
   align-items: flex-end;
   margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
   background: linear-gradient(
     140deg,
     rgba(236, 22, 81, 1) 20%,
@@ -18,14 +21,31 @@
 }
 
 .statNum {
-  font-size: 3.5rem;
-  font-weight: 700;
+  font-size: 5vmin;
+  font-weight: 900;
   color: #fff;
 }
 
+.statsFirstBlock {
+  margin-right: 40px;
+}
+
 .statText {
-  font-size: 1.25rem;
+  font-size: 2vmin;
   font-weight: 700;
   margin-top: -10px;
+
   color: #fff;
+}
+
+@media only screen and (max-width: 1080px) {
+  .statsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .statsImageWraper {
+    margin-top: 30px;
+  }
 }

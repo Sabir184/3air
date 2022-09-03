@@ -1,80 +1,81 @@
-.main-hero{
-    background-image: url("./../../../public/assets/Hero-bg.svg");
-    background-repeat: no-repeat;
-    background-position: right;
+.main-hero {
+  background-image: url('./../../../public/assets/Hero-bg.svg');
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .hero{
     padding-top: 130px;
     padding-bottom: 130px;
     margin-top: -90px;
 }
-.connectivity h1{
-    color: #EC1651;
-    font-weight: 900;
-    font-size: 64px;
-    line-height: 77px;
+.connectivity h1 {
+  color: #ec1651;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 77px;
 }
-.connectivity span{
-    color: #84ECEF;
+.connectivity span {
+  color: #84ecef;
 }
-.billion{
-    font-weight: 600;
+.billion {
+  font-weight: 600;
 }
-.limitless h2{
-    color: black;
-    font-size: 24px;
-    line-height: 33px;
-    font-weight: 700;
+.limitless h2 {
+  color: black;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 700;
 }
-.limitless p{
-    color: black;
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 400;
-    text-align: left;
+.limitless p {
+  color: black;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: left;
 }
 
-.btn-primary{
-    border-radius: 50px !important;
-    padding: 10px 25px;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 22px;
-    border: 0px;
+.btn-primary {
+  border-radius: 50px !important;
+  padding: 10px 25px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  border: 0px;
 }
-.btn-primary:hover{
-    color: white;
+.btn-primary:hover {
+  color: white;
 }
-.btn-primary:focus{
-    color: white;
-    box-shadow: none !important;
+.btn-primary:focus {
+  color: white;
+  box-shadow: none !important;
 }
-.litepaper{
-    margin-right: 30px !important;
-    background: linear-gradient(267.18deg, #84ECEF 2.35%, #EC1651 69.32%);
+.litepaper {
+  margin-right: 30px !important;
+  background: linear-gradient(267.18deg, #84ecef 2.35%, #ec1651 69.32%);
+  transition: 180ms all ease-in;
 }
-.litepaper img{
-   margin-left: 20px;
-   margin-top: -3px;
+.litepaper img {
+  margin-left: 20px;
+  margin-top: -3px;
 }
-.asal-join{
-    background: linear-gradient(269.14deg, #84ECEF 1.14%, #EC1651 59.79%);
-    padding: 2px;
+.asal-join {
+  background: linear-gradient(269.14deg, #84ecef 1.14%, #ec1651 59.79%);
+  padding: 2px;
 }
-.main-join{
-    background: white;
-    padding: 8px 23px;
-    border-radius: 50px;
+.main-join {
+  background: white;
+  padding: 8px 23px;
+  border-radius: 50px;
 }
-.main-join span{
-    background: linear-gradient(269.14deg, #84ECEF 1.14%, #EC1651 59.79%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+.main-join span {
+  background: linear-gradient(269.14deg, #84ecef 1.14%, #ec1651 59.79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
-.main-join img{
-    margin-left: 20px;
-    margin-top: -3px;
- }
+.main-join img {
+  margin-left: 20px;
+  margin-top: -3px;
+}
