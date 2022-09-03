@@ -8,7 +8,7 @@ function FrictionlessCard({ CardText, CardImage }) {
       <Card bg="transparent" className="cardContainer" border="0">
         <Card.Img style={{ height: '2.5rem' }} variant="top" src={CardImage} />
         <Card.Body>
-          <Card.Text style={{ fontSize: '2vh', marginTop: '10px' }}>
+          <Card.Text style={{ fontSize: '1rem', marginTop: '10px' }}>
             {CardText}
           </Card.Text>
         </Card.Body>
