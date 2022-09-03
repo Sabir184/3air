@@ -1,0 +1,13 @@
+.BottomSectionContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: #84ecef;
+  margin: 10px 0;
+}
+
+@media only screen and (max-width: 1080px) {
+  .BottomSectionContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
