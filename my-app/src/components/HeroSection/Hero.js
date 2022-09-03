@@ -3,7 +3,6 @@ import './Hero.scss';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import PrimaryButton from '../PrimaryButton/PrimaryButton';
 
 function Hero() {
     return (
@@ -34,15 +33,7 @@ function Hero() {
 
                             </p>
                         </div>
-                        <Row>
-                            <col>
-                                <PrimaryButton
-                                    btnPlaceholder={'contact'}
-                                />
-                            </col>
-                            <col>
-                            </col>
-                        </Row>
+                        
                     </Col>
                     <Col lg={4} md={4} sm={12} xsm={12}>
                         2 of 2
