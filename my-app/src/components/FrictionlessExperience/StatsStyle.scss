@@ -11,17 +11,17 @@
     rgba(132, 236, 239, 1) 100%
   );
   border-radius: 15px;
-  padding: 40px 10px;
+  padding: 40px 0;
 }
 
 .statsStyle {
   flex: 1;
   display: flex;
-  padding-left: 15px;
+  padding-left: 40px;
 }
 
 .statNum {
-  font-size: 5vmin;
+  font-size: 2rem;
   font-weight: 900;
   color: #fff;
 }
@@ -31,7 +31,7 @@
 }
 
 .statText {
-  font-size: 2vmin;
+  font-size: 1rem;
   font-weight: 700;
   margin-top: -10px;
 
