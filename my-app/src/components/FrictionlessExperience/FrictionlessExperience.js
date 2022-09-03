@@ -66,7 +66,7 @@ function FrictionlessExperience() {
         </div>
         <Row>
           <Col>
-            <img width={480} src="assets/diagram2.svg" />
+            <img width={480} src="assets/diagram2.svg" alt='diagram'/>
           </Col>
         </Row>
       </Container>

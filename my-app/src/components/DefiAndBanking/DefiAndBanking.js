@@ -7,7 +7,7 @@ import './DefiAndBankingStyles.scss';
 function DefiAndBanking() {
   return (
     <>
-      <Container fuild>
+      <Container className='fluid'>
         <SubHeader
           subHeaderText={'DeFi & Banking'}
           firstText={
