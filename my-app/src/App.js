@@ -1,12 +1,13 @@
 import './App.css';
-import PrimaryButton from './components/PrimaryButton/PrimaryButton';
 import Container from 'react-bootstrap/Container';
 import FrictionlessExperience from './components/FrictionlessExperience/FrictionlessExperience';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <Container>
-      <FrictionlessExperience />
+      <Header/><br/>
+      <FrictionlessExperience/>
     </Container>
   );
 }
