@@ -16,4 +16,15 @@ body {
   overflow-x: hidden;
   box-sizing: border-box;
   margin: 0;
+
+  ::-moz-selection {
+    /* Code for Firefox */
+    color: #84ecef;
+    background: #ec1651;
+  }
+
+  ::selection {
+    color: #84ecef;
+    background: #ec1651;
+  }
 }
