@@ -6,7 +6,7 @@ function FrictionlessCard({ CardText, CardImage }) {
   return (
     <>
       <Card className="cardContainer" border="0">
-        <Card.Img style={{ height: '3rem' }} variant="top" src={CardImage} />
+        <Card.Img style={{ height: '3rem' }} variant="top" src={CardImage}/>
         <Card.Body>
           <Card.Text style={{ marginTop: '1rem' }}>{CardText}</Card.Text>
         </Card.Body>
