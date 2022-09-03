@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 
 function FrictionlessExperience() {
   return (
-    <Container>
+    <Container className='friction'>
       <div>
         <h5 className="HeaderFirstLine">A frictionless experience into</h5>
         <h4 className="HeaderSecondLine">Web3, accessible to all</h4>
@@ -58,6 +58,11 @@ function FrictionlessExperience() {
         <div className="statsImageWraper">
           <img width={480} src="assets/diagram2.svg" alt="diagram" />
         </div>
+        <Row>
+          <Col>
+            <img width={480} src="assets/diagram2.svg" alt='diagram' />
+          </Col>
+        </Row>
       </Container>
     </Container>
   );

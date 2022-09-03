@@ -6,12 +6,16 @@ import DefiAndBanking from './components/DefiAndBanking/DefiAndBanking';
 import NFTsandOwnership from './components/NFTsAndOwnership/NFTsandOwnership';
 import DigitalIdentities from './components/DigitalIdentities/DigitalIdentities';
 import Architecture from './components/Architecture/Architecture';
+import LogosSection from './components/HeroSection/LogosSection';
+import NewUsers from './components/NewUsers/NewUsers';
 
 function App() {
   return (
     <>
       <Header />
       <Hero />
+      <LogosSection />
+      <NewUsers/>
       <FrictionlessExperience />
       <DefiAndBanking />
       <NFTsandOwnership />
