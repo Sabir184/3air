@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Hero from './components/HeroSection/Hero';
 import DefiAndBanking from './components/DefiAndBanking/DefiAndBanking';
 import NFTsandOwnership from './components/NFTsAndOwnership/NFTsandOwnership';
+import DigitalIdentities from './components/DigitalIdentities/DigitalIdentities';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <FrictionlessExperience />
       <DefiAndBanking />
       <NFTsandOwnership />
+      <DigitalIdentities />
     </>
   );
 }
