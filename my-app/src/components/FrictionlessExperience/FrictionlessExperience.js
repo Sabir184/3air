@@ -9,9 +9,11 @@ import Col from 'react-bootstrap/Col';
 
 function FrictionlessExperience() {
   return (
-    <>
-      <div className="HeaderFirstLine">A frictionless experience into</div>
-      <div className="HeaderSecondLine">Web3, accessible to all</div>
+    <Container>
+      <div>
+        <h5 className="HeaderFirstLine">A frictionless experience into</h5>
+        <h4 className="HeaderSecondLine">Web3, accessible to all</h4>
+      </div>
       <SubHeader
         subHeaderText={'Connectivity & Entertainment'}
         firstText={'Broadband high-speed Internet, TV and IP Telephony'}
@@ -68,7 +70,7 @@ function FrictionlessExperience() {
           </Col>
         </Row>
       </Container>
-    </>
+    </Container>
   );
 }
 

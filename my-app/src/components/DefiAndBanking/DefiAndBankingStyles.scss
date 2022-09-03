@@ -1,12 +1,17 @@
 .BottomSectionContainer {
-  display: flex;
-  flex-direction: row;
   background-color: #84ecef;
   margin: 10px 0;
 }
 
+.cardIconsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 1080px) {
-  .BottomSectionContainer {
+  .cardIconsContainer {
     display: flex;
     flex-direction: column;
   }

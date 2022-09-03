@@ -7,16 +7,15 @@ import DefiAndBanking from './components/DefiAndBanking/DefiAndBanking';
 
 function App() {
   return (
-    <Container>
-
-      <Header/>
-      <Hero/>
-      <FrictionlessExperience/>
-      <Header />
-      <br />
-      <FrictionlessExperience />
-      <DefiAndBanking />
-    </Container>
+    <>
+      <Container>
+        <Header />
+        <Hero />
+        <FrictionlessExperience />
+        <DefiAndBanking />
+      </Container>
+    </>
   );
 }
+
 export default App;
