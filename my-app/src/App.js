@@ -5,6 +5,7 @@ import Hero from './components/HeroSection/Hero';
 import DefiAndBanking from './components/DefiAndBanking/DefiAndBanking';
 import NFTsandOwnership from './components/NFTsAndOwnership/NFTsandOwnership';
 import DigitalIdentities from './components/DigitalIdentities/DigitalIdentities';
+import Architecture from './components/Architecture/Architecture';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <DefiAndBanking />
       <NFTsandOwnership />
       <DigitalIdentities />
+      <Architecture />
     </>
   );
 }

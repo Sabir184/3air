@@ -14,7 +14,7 @@ function DigitalIdentities() {
           'Users can check credit scores, medical history, and proof of education verifiable directly on the blockchain'
         }
       />
-      <div className="cardContainer">
+      <div className="CardContainerBottom">
         <DigitalCard
           CardText={'Easy, cheap, and trustless from anywhere in the world'}
           CardImage={'assets/easyIcon.svg'}

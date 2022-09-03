@@ -23,13 +23,13 @@
   width: 100%;
 }
 
-.cardContainer {
+.CardContainerBottom {
   display: flex;
   flex-direction: row;
 }
 
 @media only screen and (max-width: 1080px) {
-  .cardContainer {
+  .CardContainerBottom {
     display: flex;
     flex-direction: column;
     align-items: center;

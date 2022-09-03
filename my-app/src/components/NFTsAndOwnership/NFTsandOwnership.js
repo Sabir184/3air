@@ -7,7 +7,7 @@ import './NFTsStyle.scss';
 function NFTsandOwnership() {
   return (
     <>
-      <Container className="fluid">
+      <Container className="fluid ">
         <SubHeader
           subHeaderText={'NFTs & Ownership'}
           firstText={''}
