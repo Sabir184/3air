@@ -6,12 +6,12 @@ import DefiAndBanking from './components/DefiAndBanking/DefiAndBanking';
 
 function App() {
   return (
-    <Container>
+    <>
       <Header />
       <br />
       <FrictionlessExperience />
       <DefiAndBanking />
-    </Container>
+    </>
   );
 }
 export default App;
