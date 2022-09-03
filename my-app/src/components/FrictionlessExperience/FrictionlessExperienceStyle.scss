@@ -1,11 +1,11 @@
 .HeaderFirstLine {
-  font-weight: 500;
-  font-size: 2.75rem;
+  font-weight: 600;
+  font-size: 6vmin;
 }
 
 .HeaderSecondLine {
-  font-weight: 800;
-  font-size: 4rem;
+  font-weight: 900;
+  font-size: 6vmin;
   color: #ec1651;
 }
 
@@ -20,12 +20,5 @@
   .CardContainer {
     display: flex;
     flex-direction: column;
-  }
-  .HeaderSecondLine {
-    font-size: 2.2rem;
-  }
-  .HeaderFirstLine {
-    font-weight: 500;
-    font-size: 1.5rem;
   }
 }
