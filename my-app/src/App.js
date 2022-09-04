@@ -12,6 +12,8 @@ import Team from './components/CoreTeam/Team';
 import Edication from './components/Edication/Edication';
 import Roadmap from './components/Roadmap/Roadmap';
 import Advisors from './components/Advisors/Advisors';
+import Partners from './components/Partners/Partners';
+import Backers from './components/Backers/Backers';
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
       <Architecture />
       <Team />
       <Advisors />
+      <Partners />
+      <Backers />
       <Roadmap />
     </>
   );
