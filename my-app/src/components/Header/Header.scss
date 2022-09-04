@@ -1,17 +1,20 @@
-.header{
+.header {
     align-items: flex-end !important;
 }
-.nav-items{
+
+.nav-items {
     margin-right: 0px !important;
     margin-left: auto !important;
 }
-.nav-link{
-padding: 0px !important;
-margin-left: 40px;
-color: black;
-font-size: 18px;
-line-height: 22px;
-}
-.nav-link:hover{
+
+.nav-link {
+    padding: 0px !important;
+    margin-left: 40px;
     color: black;
-    }
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.nav-link:hover {
+    color: black;
+}
