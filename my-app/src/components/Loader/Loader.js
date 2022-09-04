@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import './LoaderStyles.scss';
 
 function Loader() {
-  const transition = { duration: 4, yoyo: Infinity, ease: 'easeInOut' };
+  const transition = { duration: 2, yoyo: Infinity, ease: 'easeInOut' };
 
   return (
     <>
