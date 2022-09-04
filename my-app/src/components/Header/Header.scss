@@ -1,7 +1,8 @@
-<<<<<<< HEAD
 // this cause problem
 .headerWapper {
   position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .header {
@@ -20,7 +21,6 @@
 .nav-link:hover {
   color: black;
 }
-=======
 .header {
     align-items: flex-end !important;
 }
@@ -41,4 +41,3 @@
 .nav-link:hover {
     color: black;
 }
->>>>>>> ef492f134c5e82f592c6b7144d21edffe35d917d
