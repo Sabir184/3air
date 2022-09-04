@@ -1,0 +1,33 @@
+.logosContainerBackers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logosContainerBackers > img {
+  margin: 20px;
+}
+
+.logosContainerBackers > img:first-child {
+  margin-left: -20px;
+}
+
+@media only screen and (max-width: 1080px) {
+  .logosContainerBackers {
+    display: flex;
+    flex-wrap: wrap;
+    // row-gap: 30px;
+    justify-content: space-evenly;
+  }
+
+  .backersContainer > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logosContainerBackers > img:first-child {
+    margin-left: 0;
+  }
+}

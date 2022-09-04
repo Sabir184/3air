@@ -16,6 +16,12 @@
   margin-right: -20px;
 }
 
+.partnersContainer > h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media only screen and (max-width: 1080px) {
   .logosContainer {
     display: flex;

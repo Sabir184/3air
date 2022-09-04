@@ -7,7 +7,7 @@ import './PartnersStyles.scss';
 function Partners() {
   return (
     <>
-      <Container>
+      <Container className="partnersContainer">
         <h2
           style={{
             color: '#EC1651',
@@ -20,38 +20,6 @@ function Partners() {
         >
           Partners
         </h2>
-        {/* <Row>
-          <Col xl={2} lg={2} md={4} sm={6}>
-            <img src="/assets/icea.svg" alt="Partners" />
-          </Col>
-          <Col
-            xl={2}
-            lg={2}
-            md={4}
-            sm={6}
-            style={{
-              display: 'flex',
-              flexDirection: 'row',
-              alignItems: 'center',
-            }}
-          >
-            <img src="/assets/it.png" alt="Partners" width={'70%'} />
-          </Col>
-          <Col xl={2} lg={3} md={4} sm={6}>
-            <img src="/assets/tele.png" alt="Partners" />
-          </Col>
-          <Col xl={2} lg={2} md={4} sm={6}>
-            <img src="/assets/africa.png" alt="Partners" />
-          </Col>
-          <Col xl={2} lg={2} md={4} sm={6}>
-            <img src="/assets/hero.png" alt="Partners" />
-          </Col>
-          <Col xl={2} lg={1} md={4} sm={6}>
-            <img src="/assets/skale.svg" alt="Partners" width={'100px'} />
-          </Col>
-        </Row>
-
-        */}
 
         <Container className="logosContainer">
           <img height={36} src="/assets/icea.svg" alt="Partners" />

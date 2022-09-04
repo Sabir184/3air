@@ -20,6 +20,7 @@
 .users-diagram {
   margin-top: 40px;
 }
+
 .users-doll {
   float: right;
   margin-top: -150px;
@@ -27,4 +28,10 @@
 .doll {
   max-width: 1300px;
   width: 1300px;
+}
+
+@media only screen and (max-width: 1080px) {
+  .users-diagram > img {
+    width: 100vw;
+  }
 }

@@ -83,3 +83,11 @@
 .slick-list {
   margin: 0 -30px;
 }
+
+@media only screen and (max-width: 1080px) {
+  .roadHeaderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

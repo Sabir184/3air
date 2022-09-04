@@ -1,21 +1,21 @@
-.archMain{
-padding: 250px 0px 90px;
-background-image: url('./../../../public/assets/architecture.svg');
+.archMain {
+  padding: 250px 0px 90px;
+  background-image: url('./../../../public/assets/architecture.svg');
   background-repeat: no-repeat;
   background-position: right;
   margin-top: -200px;
 }
-.archInner{
+.archInner {
   padding: 10px 0px;
-  background: #E9E9EA;
+  background: #e9e9ea;
 }
-.archImage{
+.archImage {
   max-width: 1200px !important;
   width: 1200px !important;
 }
-.archImage img{
+.archImage img {
   max-width: 1160px !important;
-  width: 1160px !important;
+  width: 100vw !important;
 }
 
 .archContainer h2 {
@@ -26,4 +26,12 @@ background-image: url('./../../../public/assets/architecture.svg');
   font-size: 38px;
   line-height: 53px;
   font-weight: 800;
+}
+
+@media only screen and (max-width: 1080px) {
+  .archContainer > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
