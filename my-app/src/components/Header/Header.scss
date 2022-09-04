@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // this cause problem
 .headerWapper {
   position: fixed;
@@ -20,25 +19,24 @@
 .nav-link:hover {
   color: black;
 }
-=======
+
 .header {
-    align-items: flex-end !important;
+  align-items: flex-end !important;
 }
 
 .nav-items {
-    margin-right: 0px !important;
-    margin-left: auto !important;
+  margin-right: 0px !important;
+  margin-left: auto !important;
 }
 
 .nav-link {
-    padding: 0px !important;
-    margin-left: 40px;
-    color: black;
-    font-size: 18px;
-    line-height: 22px;
+  padding: 0px !important;
+  margin-left: 40px;
+  color: black;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .nav-link:hover {
-    color: black;
+  color: black;
 }
->>>>>>> ef492f134c5e82f592c6b7144d21edffe35d917d
