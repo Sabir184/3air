@@ -10,6 +10,7 @@ import LogosSection from './components/HeroSection/LogosSection';
 import NewUsers from './components/NewUsers/NewUsers';
 import Team from './components/CoreTeam/Team';
 import Edication from './components/Edication/Edication';
+import Roadmap from './components/Roadmap/Roadmap';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <DigitalIdentities />
       <Architecture />
       <Team />
+      <Roadmap />
     </>
   );
 }
