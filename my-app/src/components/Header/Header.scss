@@ -1,17 +1,21 @@
-.header{
-    align-items: flex-end !important;
+// this cause problem
+.headerWapper {
+  position: fixed;
 }
-.nav-items{
-    margin-right: 0px !important;
-    margin-left: auto !important;
+
+.header {
+  align-items: flex-end !important;
 }
-.nav-link{
-padding: 0px !important;
-margin-left: 40px;
-color: black;
-font-size: 18px;
-line-height: 22px;
+.nav-items {
+  margin-right: 0px !important;
+  margin-left: auto !important;
 }
-.nav-link:hover{
-    color: black;
-    }
+.nav-link {
+  margin-left: 40px;
+  color: black;
+  font-size: 18px;
+  line-height: 22px;
+}
+.nav-link:hover {
+  color: black;
+}
