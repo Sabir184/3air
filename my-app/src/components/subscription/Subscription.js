@@ -2,7 +2,6 @@ import React from 'react';
 import './SubscriptionStyles.scss';
 import Container from 'react-bootstrap/esm/Container';
 import Button from 'react-bootstrap/Button';
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 

@@ -15,6 +15,7 @@ import Subscription from './components/subscription/Subscription';
 import Advisors from './components/Advisors/Advisors';
 import Partners from './components/Partners/Partners';
 import Backers from './components/Backers/Backers';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       <Backers />
       <Roadmap />
       <Subscription />
+      <Footer />
     </>
   );
 }
