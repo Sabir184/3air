@@ -8,7 +8,7 @@ import Member from '../MembersProfile/Member';
 function Team() {
     return (
         <>
-            <Container className='team'>
+            <Container className='team' id='team'>
                 <h2>Core Team</h2>
             </Container>
             <Container>

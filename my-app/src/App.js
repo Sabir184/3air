@@ -16,7 +16,10 @@ import Subscription from './components/subscription/Subscription';
 import Advisors from './components/Advisors/Advisors';
 import Partners from './components/Partners/Partners';
 import Backers from './components/Backers/Backers';
+
 import Loader from './components/Loader/Loader';
+
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -49,6 +52,7 @@ function App() {
           <Backers />
           <Roadmap />
           <Subscription />
+          <Footer />
         </>
       )}
     </>
