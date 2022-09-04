@@ -8,6 +8,7 @@ import DigitalIdentities from './components/DigitalIdentities/DigitalIdentities'
 import Architecture from './components/Architecture/Architecture';
 import LogosSection from './components/HeroSection/LogosSection';
 import NewUsers from './components/NewUsers/NewUsers';
+import Team from './components/CoreTeam/Team';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <NFTsandOwnership />
       <DigitalIdentities />
       <Architecture />
+      <Team />
     </>
   );
 }

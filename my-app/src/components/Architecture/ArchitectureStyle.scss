@@ -1,9 +1,21 @@
-.imageWrapper {
-  width: 100%;
-  background-color: #e9e9ea;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.archMain{
+padding: 250px 0px 90px;
+background-image: url('./../../../public/assets/architecture.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: -200px;
+}
+.archInner{
+  padding: 10px 0px;
+  background: #E9E9EA;
+}
+.archImage{
+  max-width: 1200px !important;
+  width: 1200px !important;
+}
+.archImage img{
+  max-width: 1160px !important;
+  width: 1160px !important;
 }
 
 .archContainer h2 {
@@ -11,6 +23,7 @@
   margin-bottom: 40px;
   text-transform: uppercase;
   color: #ec1651;
-  font-size: 5vmin;
+  font-size: 38px;
+  line-height: 53px;
   font-weight: 800;
 }

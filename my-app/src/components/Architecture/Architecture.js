@@ -1,6 +1,5 @@
 import React from 'react';
 import './ArchitectureStyle.scss';
-import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/esm/Container';
 
 function Architecture() {
@@ -9,10 +8,13 @@ function Architecture() {
       <Container className="archContainer">
         <h2>Architecture</h2>
       </Container>
-
-      <div className="imageWrapper">
-        <Image src="/assets/architectureImg.png" />
-      </div>
+      <Container fluid className='archMain'>
+        <Container fluid className='archInner'>
+          <Container className='archImage'>
+              <img src="/assets/architectureImg.svg" alt='Architecture'/>
+          </Container>
+        </Container>
+      </Container>
     </>
   );
 }
