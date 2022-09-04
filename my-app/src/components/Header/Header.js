@@ -20,7 +20,10 @@ export default function Header() {
   window.addEventListener('scroll', setFixed);
 
   return (
-    <Navbar bg="transparent" expand="lg">
+    <Navbar
+      className={fix ? 'headerWrapperFixed' : 'headerWrapper'}
+      expand="lg"
+    >
       <Container className="header">
         <Navbar.Brand href="#">
           <Image src="/assets/Logo.svg" height={48} width={114} />
