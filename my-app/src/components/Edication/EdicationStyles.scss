@@ -1,0 +1,24 @@
+.EdicationLeftSide {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+
+.EdicationBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1080px) {
+  .EdicationImageWrapper {
+    display: none;
+  }
+  .EdicationLeftSide {
+    display: flex;
+    flex-direction: column;
+  }
+}

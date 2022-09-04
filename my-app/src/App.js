@@ -9,6 +9,7 @@ import Architecture from './components/Architecture/Architecture';
 import LogosSection from './components/HeroSection/LogosSection';
 import NewUsers from './components/NewUsers/NewUsers';
 import Team from './components/CoreTeam/Team';
+import Edication from './components/Edication/Edication';
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
       <Header />
       <Hero />
       <LogosSection />
-      <NewUsers/>
+      <NewUsers />
       <FrictionlessExperience />
       <DefiAndBanking />
+      <Edication />
       <NFTsandOwnership />
       <DigitalIdentities />
       <Architecture />
