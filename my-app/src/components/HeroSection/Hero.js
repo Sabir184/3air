@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import HeroImage from '../heroImage/heroImage';
 
 function Hero() {
   return (
@@ -62,6 +63,9 @@ function Hero() {
           </Row>
         </Container>
       </Container>
+      <div className="heroContainer">
+        <HeroImage />
+      </div>
     </>
   );
 }
