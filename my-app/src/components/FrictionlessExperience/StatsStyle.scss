@@ -1,40 +1,42 @@
 .statsContainer {
   display: flex;
   align-items: flex-end;
-  margin-top: 30px;
+  margin-top: 70px;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-  background: linear-gradient(
-    140deg,
-    rgba(236, 22, 81, 1) 20%,
-    rgba(132, 236, 239, 1) 100%
-  );
+  background: linear-gradient(96.68deg, #EC1651 -0.95%, #84ECEF 100.81%);
   border-radius: 15px;
-  padding: 40px 0;
+  padding: 40px 30px;
 }
 
 .statsStyle {
   flex: 1;
   display: flex;
-  padding-left: 40px;
+  background-image: url(../../../public/assets/diagram2.svg);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .statNum {
-  font-size: 2rem;
+  font-size: 56px;
   font-weight: 900;
+  line-height: 78px;
   color: #fff;
 }
 
 .statsFirstBlock {
-  margin-right: 40px;
+  margin-right: 50px;
+}
+.statssecondBlock{
+ margin-top: 20px;
 }
 
 .statText {
-  font-size: 1rem;
+  font-size: 20px;
+  line-height: 28px;
   font-weight: 700;
   margin-top: -10px;
-
   color: #fff;
 }
 

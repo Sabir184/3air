@@ -20,41 +20,46 @@ function FrictionlessExperience() {
         }
       />
       <div className="CardContainer">
-        <FrictionlessCard
-          CardImage={'assets/hammerIcon.svg'}
-          CardText={'No need to dig trenches'}
-        />
-        <FrictionlessCard
-          CardImage={'assets/tvIcon.svg'}
-          CardText={'Digital TV at home and in the app'}
-        />
-        <FrictionlessCard
-          CardImage={'assets/ipTelephoneIcon.svg'}
-          CardText={'IP Telephony to facilitate businesses'}
-        />
-        <FrictionlessCard
-          CardImage={'assets/badgeIcon.svg'}
-          CardText={'Stable, reliable and affordable'}
-        />
+        <div className="frictionCards">
+          <FrictionlessCard
+            CardImage={'assets/hammerIcon.svg'}
+            CardText={'No need to dig trenches'}
+          />
+        </div>
+        <div className="frictionCards">
+          <FrictionlessCard
+            CardImage={'assets/tvIcon.svg'}
+            CardText={'Digital TV at home and in the app'}
+          />
+        </div>
+        <div className="frictionCards">
+          <FrictionlessCard
+            CardImage={'assets/ipTelephoneIcon.svg'}
+            CardText={'IP Telephony to facilitate businesses'}
+          />
+        </div>
+        <div className="frictionCards">
+          <FrictionlessCard
+            CardImage={'assets/badgeIcon.svg'}
+            CardText={'Stable, reliable and affordable'}
+          />
+        </div>
       </div>
 
       <Container className="statsContainer">
         <div className="statsStyle">
           <div className="statsFirstBlock">
             <Stats StatNum={'1,000+'} StatText={'Mbps/user'} />
-            <Stats StatNum={'50km'} StatText={'base station range'} />
+            <div className="statssecondBlock"> <Stats StatNum={'50km'} StatText={'base station range'} /></div>
           </div>
 
           <div className="statsFirstBlock">
             <Stats StatNum={'15,000'} StatText={'users/base station'} />{' '}
-            <Stats
+            <div className="statssecondBlock"><Stats
               StatNum={'17,000 Mbps'}
               StatText={'base station (x240 faster than mobile)'}
-            />
+            /></div>
           </div>
-        </div>
-        <div className="statsImageWraper">
-          <img width={480} src="assets/diagram2.svg" alt="diagram" />
         </div>
       </Container>
     </Container>

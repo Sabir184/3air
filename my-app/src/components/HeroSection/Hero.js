@@ -39,7 +39,7 @@ function Hero() {
                 <ButtonGroup className="hero-btns">
                   <Button
                     className="litepaper"
-                    href="https://forwardprotocol.io"
+                    href="https://docs.3air.io/litepaper/"
                     target="_blank"
                   >
                     LITEPAPER
@@ -47,7 +47,7 @@ function Hero() {
                   </Button>
                   <Button
                     className="asal-join"
-                    href="https://forwardprotocol.io"
+                    href="https://t.me/my3air"
                     target="_blank"
                   >
                     <div className="main-join">
