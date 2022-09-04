@@ -11,6 +11,7 @@ import NewUsers from './components/NewUsers/NewUsers';
 import Team from './components/CoreTeam/Team';
 import Edication from './components/Edication/Edication';
 import Roadmap from './components/Roadmap/Roadmap';
+import Subscription from './components/subscription/Subscription';
 import Advisors from './components/Advisors/Advisors';
 import Partners from './components/Partners/Partners';
 import Backers from './components/Backers/Backers';
@@ -33,6 +34,7 @@ function App() {
       <Partners />
       <Backers />
       <Roadmap />
+      <Subscription />
     </>
   );
 }
