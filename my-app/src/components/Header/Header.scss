@@ -5,6 +5,7 @@
   left: 0;
   width: 100vw;
   transition: all 300ms;
+  z-index: 999;
 }
 .headerWrapperFixed {
   position: fixed;
@@ -13,6 +14,7 @@
   left: 0;
   width: 100vw;
   background-color: #ed174c;
+  z-index: 999;
 }
 
 .header {
