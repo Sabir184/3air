@@ -20,10 +20,17 @@ export default function Header() {
   window.addEventListener('scroll', setFixed);
 
   return (
-    <Navbar bg="transparent" expand="lg">
+    <Navbar
+      className={fix ? 'headerWrapperFixed' : 'headerWrapper'}
+      expand="lg"
+    >
       <Container className="header">
         <Navbar.Brand href="#">
-          <Image src="/assets/Logo.svg" height={48} width={114} />
+          {fix ? (
+            <Image src="/assets/airLogoWhite.svg" height={"48px"} width={"114px"} />
+          ) : (
+            <Image src="/assets/Logo.svg" height={"48px"} width={"114px"} />
+          )}
         </Navbar.Brand>
         <div className="nav-items">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -31,17 +38,6 @@ export default function Header() {
             <Nav>
               <Nav.Link href="#">Home</Nav.Link>
               <Nav.Link href="#team">Team</Nav.Link>
-
-              <Nav.Link href="https://blog.3air.io/" target={'_blank'}>
-                Blog
-              </Nav.Link>
-              <Nav.Link
-                href="https://docs.3air.io/tokenomics/3air-tokenomics/"
-                target={'_blank'}
-              >
-                Tokenomics
-              </Nav.Link>
-              <Nav.Link href="#app">App</Nav.Link>
 
               <Nav.Link href="https://blog.3air.io/" target={'_blank'}>
                 Blog
