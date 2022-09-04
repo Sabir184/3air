@@ -26,7 +26,11 @@ export default function Header() {
     >
       <Container className="header">
         <Navbar.Brand href="#">
-          <Image src="/assets/Logo.svg" height={48} width={114} />
+          {fix ? (
+            <Image src="/assets/airLogoWhite.svg" height={48} width={114} />
+          ) : (
+            <Image src="/assets/Logo.svg" height={48} width={114} />
+          )}
         </Navbar.Brand>
         <div className="nav-items">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
