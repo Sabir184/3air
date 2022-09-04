@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import FrictionlessExperience from './components/FrictionlessExperience/FrictionlessExperience';
 import Header from './components/Header/Header';
@@ -15,28 +16,45 @@ import Subscription from './components/subscription/Subscription';
 import Advisors from './components/Advisors/Advisors';
 import Partners from './components/Partners/Partners';
 import Backers from './components/Backers/Backers';
+
+import Loader from './components/Loader/Loader';
+
 import Footer from './components/Footer/Footer';
 
 function App() {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+  }, []);
   return (
     <>
-      <Header />
-      <Hero />
-      <LogosSection />
-      <NewUsers />
-      <FrictionlessExperience />
-      <DefiAndBanking />
-      <Edication />
-      <NFTsandOwnership />
-      <DigitalIdentities />
-      <Architecture />
-      <Team />
-      <Advisors />
-      <Partners />
-      <Backers />
-      <Roadmap />
-      <Subscription />
-      <Footer />
+      {loading ? (
+        <Loader />
+      ) : (
+        <>
+          <Header />
+          <Hero />
+          <LogosSection />
+          <NewUsers />
+          <FrictionlessExperience />
+          <DefiAndBanking />
+          <Edication />
+          <NFTsandOwnership />
+          <DigitalIdentities />
+          <Architecture />
+          <Team />
+          <Advisors />
+          <Partners />
+          <Backers />
+          <Roadmap />
+          <Subscription />
+          <Footer />
+        </>
+      )}
     </>
   );
 }
