@@ -4,8 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Image from 'react-bootstrap/Image';
 import './Header.scss';
-import { useEffect, useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { useState } from 'react';
 
 export default function Header() {
   const [fix, setFix] = useState(false);

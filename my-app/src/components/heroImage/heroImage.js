@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Container from 'react-bootstrap/esm/Container';
-import './heroImage.scss';
+import '../HeroSection/Hero.scss';
 
 function HeroImage() {
   return (

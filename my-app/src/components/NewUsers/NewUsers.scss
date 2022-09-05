@@ -41,7 +41,55 @@
   .doll {
     width: 100%;
   }
-  .users-diagram img{
+
+  .users-diagram img {
     width: 100%;
+  }
+
+  .billions h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .billions h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .users-doll img {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .doll {
+    width: 100%;
+  }
+
+  .users-diagram img {
+    width: 100%;
+  }
+
+  .billions h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .billions h3 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .users-doll img {
+    width: 100%;
+  }
+
+  .users-doll {
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 30%;
+    height: 150px;
   }
 }

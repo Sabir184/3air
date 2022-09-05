@@ -17,7 +17,7 @@ function DigitalCard({ CardImage, CardText }) {
           />
           </div>
           <Card.Body>
-            <Card.Text style={{ fontSize: '1rem', marginTop: '10px' }}>
+            <Card.Text>
               {CardText}
             </Card.Text>
           </Card.Body>

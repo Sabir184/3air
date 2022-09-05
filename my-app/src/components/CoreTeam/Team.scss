@@ -1,6 +1,7 @@
 .team {
   margin-top: -50px;
 }
+
 .team h2 {
   font-weight: 800;
   font-size: 38px;
@@ -8,14 +9,21 @@
   text-transform: uppercase;
   color: #ec1651;
 }
+
 .team-members {
   margin-top: 30px;
 }
 
-@media only screen and (max-width: 1080px) {
-  .team > h2 {
+@media screen and (max-width: 1024px) {
+  .team>h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .team {
+    margin-top: 50px;
   }
 }

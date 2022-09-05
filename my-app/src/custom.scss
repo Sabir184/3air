@@ -12,8 +12,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
   box-sizing: border-box;
+  overflow-x: hidden !important;
   margin: 0;
 
   ::-moz-selection {
@@ -26,10 +26,13 @@ body {
     color: #84ecef;
     background: #ec1651;
   }
+  
+  
 }
 
 .scroll {
   width: 200px;
   height: 400px;
   overflow: scroll;
+  overflow-x: hidden !important;
 }

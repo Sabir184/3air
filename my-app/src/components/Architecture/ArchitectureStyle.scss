@@ -6,16 +6,19 @@
   margin-top: -200px;
   z-index: 99;
 }
-.archInner{
+
+.archInner {
   padding: 10px 0px;
   background: #e9e9ea;
   z-index: -1;
 }
+
 .archImage {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .archImage img {
   max-width: 1160px !important;
   width: 100%;
@@ -31,10 +34,18 @@
   font-weight: 800;
 }
 
-@media only screen and (max-width: 1080px) {
-  .archContainer > h2 {
+@media screen and (max-width: 1024px) {
+  .archContainer>h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .archMain {
+    padding: 0px;
+    background-image: none;
+    margin-top: 0px;
   }
 }

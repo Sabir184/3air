@@ -30,6 +30,10 @@
   flex-direction: row;
 }
 
+.card-text {
+  font-size: 1rem;
+  margin-top: 10px;
+}
 
 @media screen and (max-width: 1024px) {
   .CardContainerBottom {
@@ -41,5 +45,22 @@
 
   .digitalCardContainer {
     margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .digitalCardContainer {
+    margin: 10px 0;
+    padding: 10px 0;
+    flex-direction: row;
+  }
+
+  .digitalCardContainer img {
+    padding-left: 10px;
+    width: 80px;
+  }
+
+  .card-text {
+    margin-top: 10px;
   }
 }

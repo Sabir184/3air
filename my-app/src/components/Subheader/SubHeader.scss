@@ -32,7 +32,7 @@
   align-items: center;
 }
 
-.descContainer > p:first-child {
+.descContainer>p:first-child {
   font-size: 1rem;
   color: #ec1651;
   font-weight: 700;
@@ -44,4 +44,10 @@ p:nth-child(2) {
   font-size: 1rem;
   text-align: center;
   color: #000000;
+}
+
+@media screen and (max-width:767px) {
+  .subHeaderTextStyle {
+    font-size: 1rem;
+  }
 }

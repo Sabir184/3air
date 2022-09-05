@@ -2,6 +2,7 @@
   margin-top: -70px;
   margin-bottom: 70px;
 }
+
 .feature {
   color: #ec1651;
   font-weight: 800;
@@ -17,25 +18,26 @@
   align-items: center;
 }
 
-.featuredContainer > img {
+.featuredContainer>img {
   margin: 20px;
 }
 
-.featuredContainer > img:first-child {
+.featuredContainer>img:first-child {
   margin-left: -20px;
 }
-.featuredContainer > img:last-child {
+
+.featuredContainer>img:last-child {
   margin-right: -20px;
 }
 
-.partnersContainer > h2 {
+.partnersContainer>h2 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-@media only screen and (max-width: 1080px) {
-  .logos-sec > h2 {
+@media screen and (max-width: 1024px) {
+  .logos-sec>h2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,10 +50,29 @@
     justify-content: space-evenly;
   }
 
-  .featuredContainer > img:first-child {
-    margin-left: 0;
+  .featuredContainer>img:first-child {
+    margin-left: 20px;
   }
-  .featuredContainer > img:last-child {
-    margin-right: 0;
+
+  .featuredContainer>img:last-child {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .featuredContainer {
+    justify-content: space-between;
+  }
+
+  .featuredContainer>img:first-child {
+    margin-left: 10px;
+  }
+
+  .featuredContainer>img:last-child {
+    margin-right: 10px;
+  }
+
+  .featuredContainer>img {
+    margin: 10px;
   }
 }
