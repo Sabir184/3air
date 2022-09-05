@@ -37,8 +37,11 @@
   width: 1300px;
 }
 
-@media only screen and (max-width: 1080px) {
-  .users-diagram>img {
-    width: 100vw;
+@media screen and (max-width: 1024px) {
+  .doll {
+    width: 100%;
+  }
+  .users-diagram img{
+    width: 100%;
   }
 }

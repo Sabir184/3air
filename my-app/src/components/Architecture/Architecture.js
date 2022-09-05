@@ -10,9 +10,9 @@ function Architecture() {
       </Container>
       <Container fluid className='archMain'>
         <Container fluid className='archInner'>
-          <Container className='archImage'>
+          <div className='archImage'>
               <img src="/assets/architectureImg.svg" alt='Architecture'/>
-          </Container>
+          </div>
         </Container>
       </Container>
     </>
