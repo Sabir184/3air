@@ -134,13 +134,12 @@
     .navbar-toggler:focus {
       box-shadow: none;
     }
-
-    .navbar-toggler-icon {
-      background-image: url(../../../public/assets/hamred.svg) !important;
-    }
-    .navbar-toggler-icon:hover {
-      background-image: url(../../../public/assets/crossred.svg) !important;
-    }
+  }
+  .navbar-toggler-icon{
+    background-image: url(../../../public/assets/hamred.svg) !important;
+  }
+  .navbar-toggler-icon:active {
+    background-image: url(../../../public/assets/crossred.svg) !important;
   }
   .headerWrapperFixed .navbar-toggler-icon {
     background-image: url(../../../public/assets/hamwhite.svg) !important;
