@@ -9,7 +9,7 @@ function Member({ ProfileImage, ProfileLink, MemberName, MemberDescription }) {
             <Container className='members'>
                 <div className='members-images'>
                     <img src={ProfileImage} alt='Profile' />
-                    <a href={ProfileLink} target="_blank" className='linkedin'>
+                    <a href={ProfileLink} target="_blank"  rel='noopener noreferrer' className='linkedin'>
                         <img src='/assets/linkedin.svg' alt='Linkedin' />
                     </a>
                 </div>
