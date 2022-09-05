@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 20px;
+  border-radius: 30px;
   padding-top: 60px;
   width: 100%;
   display: flex;
@@ -14,7 +14,7 @@
   margin-top: 70px;
 }
 
-.subContainer>h1 {
+.subContainer > h1 {
   font-weight: 900;
   font-size: 28px;
   color: #fff;
@@ -24,12 +24,10 @@
 .topHrLine {
   flex: 1;
   height: 1px;
-  background-color: #E9E9EA;
+  background-color: #e9e9ea;
   margin-right: 15px;
   margin-left: 15px;
 }
-
-
 
 .input-group {
   position: relative;
@@ -54,10 +52,20 @@
 .input-group input:focus {
   box-shadow: none;
   border: 2px solid white;
+  transition: transform 0.4s cubic-bezier(0.1, 0.7, 0.1, 1), box-shadow 0.25s;
+  &:focus {
+    border: 2px solid rgba(132, 236, 239, 1);
+    box-shadow: 0 0 0 3px rgba(132, 236, 239, 0.6);
+    transform: translateY(-1px) translateX(0.5px) scale(1.02);
+  }
 }
 
 .btn-outline-secondary {
   border-radius: 12px !important;
+  transition: transform 0.4s cubic-bezier(0.1, 0.7, 0.1, 1), box-shadow 0.25s;
+  &:hover {
+    transform: translateY(-3px) translateX(2px) scale(1.05);
+  }
 }
 
 @media only screen and (max-width: 1080px) {

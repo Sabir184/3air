@@ -5,25 +5,25 @@
   justify-content: center;
   color: #84ecef;
 }
-.nftMainContainer{
+.nftMainContainer {
   background-color: #000;
   background-image: url('./../../../public/assets/nft-mask.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 20px;
+  border-radius: 30px;
   padding-top: 20px;
   padding-bottom: 40px;
 }
-.nftMainContainer p{
+.nftMainContainer p {
   font-weight: 400;
-font-size: 24px;
-line-height: 140%;
-text-align: center;
-color: #84ECEF;
-margin-bottom: 30px;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  color: #84ecef;
+  margin-bottom: 30px;
 }
-.nftWidgets{
+.nftWidgets {
   padding: 0px 50px;
 }
 @media only screen and (max-width: 1080px) {
