@@ -80,7 +80,12 @@
 .litepaper {
   margin-right: 30px !important;
   background: linear-gradient(267.18deg, #84ecef 2.35%, #ec1651 69.32%);
-  transition: 180ms all ease-in;
+
+  transition: transform 0.4s cubic-bezier(0.1, 0.7, 0.1, 1), box-shadow 0.25s;
+  &:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0px 8px 25px 0px rgba(236, 22, 81, 0.3);
+  }
 }
 .litepaper img {
   margin-left: 20px;
@@ -96,6 +101,10 @@
   border-radius: 50px;
   display: flex;
   flex-direction: row;
+  transition: transform 0.4s cubic-bezier(0.1, 0.7, 0.1, 1), box-shadow 0.25s;
+  &:hover {
+    transform: translateY(-3px) scale(1.05);
+  }
 }
 .main-join span {
   background: linear-gradient(269.14deg, #84ecef 1.14%, #ec1651 59.79%);
