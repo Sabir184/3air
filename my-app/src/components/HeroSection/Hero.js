@@ -43,8 +43,10 @@ function Hero() {
                     href="https://docs.3air.io/litepaper/"
                     target="_blank"
                   >
-                    LITEPAPER
-                    <img src="assets/whitearrow.svg" alt="arrow" />
+                    <div className="btnInside">
+                      LITEPAPER
+                      <img src="assets/whitearrow.svg" alt="arrow" />
+                    </div>
                   </Button>
                   <Button
                     className="asal-join"
@@ -52,8 +54,10 @@ function Hero() {
                     target="_blank"
                   >
                     <div className="main-join">
-                      <span className="join">Join our Community</span>
-                      <img src="assets/gredientarrow.svg" alt="arrow" />
+                      <div className="btnInside">
+                        <span className="join">Join our Community</span>
+                        <img src="assets/gredientarrow.svg" alt="arrow" />
+                      </div>
                     </div>
                   </Button>
                 </ButtonGroup>
