@@ -27,9 +27,13 @@ export default function Header() {
       <Container className="header">
         <Navbar.Brand href="#">
           {fix ? (
-            <Image src="/assets/airLogoWhite.svg" height={"38px"} width={"94px"} />
+            <Image
+              src="/assets/airLogoWhite.svg"
+              height={'38px'}
+              width={'94px'}
+            />
           ) : (
-            <Image src="/assets/Logo.svg" height={"48px"} width={"114px"} />
+            <Image src="/assets/Logo.svg" height={'48px'} width={'114px'} />
           )}
         </Navbar.Brand>
         <div className="nav-items">
