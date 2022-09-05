@@ -10,24 +10,29 @@ function NFTsandOwnership() {
       <Container>
         <SubHeader
           subHeaderText={'NFTs & Ownership'}
-          firstText={''}
-          secondText={''}
         />
-        <div className="nftContainer">
-          <FrictionlessCard
-            CardText={
-              'Users buy, share, and resell internet services as an NFT'
-            }
-            CardImage={'assets/nftIcon.svg'}
-          />
-          <FrictionlessCard
-            CardText={'Affordable, decentralized mesh internet for everyone'}
-            CardImage={'assets/chainIcon.svg'}
-          />
-          <FrictionlessCard
-            CardText={'Super fast and stable broadband for businesses'}
-            CardImage={'assets/speedIcon.svg'}
-          />
+        <div className="nftMainContainer">
+          <p>NFTs grant you access to the Internet - first time ever</p>
+          <div className="nftContainer">
+            <div className='nftWidgets'>
+              <FrictionlessCard
+                CardText={'Users buy, share, and resell internet services as an NFT'}
+                CardImage={'assets/nftIcon.svg'}
+              />
+            </div>
+            <div className='nftWidgets'>
+              <FrictionlessCard
+                CardText={'Affordable, decentralized mesh internet for everyone'}
+                CardImage={'assets/chainIcon.svg'}
+              />
+            </div>
+            <div className='nftWidgets'>
+              <FrictionlessCard
+                CardText={'Super fast and stable broadband for businesses'}
+                CardImage={'assets/speedIcon.svg'}
+              />
+            </div>
+          </div>
         </div>
       </Container>
     </>

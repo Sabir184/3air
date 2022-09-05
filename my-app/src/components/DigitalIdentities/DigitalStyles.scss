@@ -1,29 +1,26 @@
 .digitalCardContainer {
-  background: linear-gradient(
-    25deg,
-    rgba(231, 20, 99, 1) 0%,
-    rgba(182, 20, 90, 1) 100%
-  );
+  background: linear-gradient(47.17deg, #E71463 2.93%, #B6145A 96.04%);
   color: #fff;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-start !important;
   text-align: left;
-  align-items: flex-start;
-  padding: 20px;
+  align-items: flex-start !important;
+  padding: 20px 0px;
   height: 100%;
   transition: 180ms all ease-in-out;
 
   img {
     transition: 320ms all ease-in-out;
+    padding-left: 20px;
   }
 
   &:hover {
     transform: scale(1.03) translateY(-2px);
 
     img {
-      transform: scale(1.2);
+      transform: scale(1.03);
     }
   }
 }
@@ -33,13 +30,15 @@
   flex-direction: row;
 }
 
-@media only screen and (max-width: 1080px) {
+
+@media screen and (max-width: 1024px) {
   .CardContainerBottom {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
+
   .digitalCardContainer {
     margin: 20px 0;
   }

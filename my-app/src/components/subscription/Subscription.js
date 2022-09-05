@@ -10,11 +10,10 @@ function Subscription() {
     <>
       <Container>
         <div className="topHrLine" />
-        <Container className="subContainer">
+        <div className="subContainer">
           <h1>Register now to stay up-to-date!</h1>
-          <InputGroup className="formContainer">
+          <InputGroup>
             <Form.Control
-              className="subInput"
               placeholder="Email"
               aria-label="Recipient's email"
               aria-describedby="basic-addon2"
@@ -23,7 +22,7 @@ function Subscription() {
               SUBSCRIBE
             </Button>
           </InputGroup>
-        </Container>
+        </div>
       </Container>
     </>
   );

@@ -4,10 +4,12 @@
   background-repeat: no-repeat;
   background-position: right;
   margin-top: -200px;
+  z-index: 99;
 }
-.archInner {
+.archInner{
   padding: 10px 0px;
   background: #e9e9ea;
+  z-index: -1;
 }
 .archImage {
   max-width: 1200px !important;

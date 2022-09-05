@@ -8,11 +8,14 @@ function DigitalCard({ CardImage, CardText }) {
     <>
       <Container>
         <Card className="digitalCardContainer" border="0">
+          <div>
           <Card.Img
-            style={{ height: '4rem', width: '6rem' }}
             variant="top"
             src={CardImage}
+            width={"108px"}
+            height={"96px"}
           />
+          </div>
           <Card.Body>
             <Card.Text style={{ fontSize: '1rem', marginTop: '10px' }}>
               {CardText}
