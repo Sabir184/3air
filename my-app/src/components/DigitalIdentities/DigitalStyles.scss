@@ -1,7 +1,7 @@
 .digitalCardContainer {
-  background: linear-gradient(47.17deg, #E71463 2.93%, #B6145A 96.04%);
+  background: linear-gradient(47.17deg, #e71463 2.93%, #b6145a 96.04%);
   color: #fff;
-  border-radius: 20px;
+  border-radius: 25px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start !important;
@@ -20,7 +20,7 @@
     transform: scale(1.03) translateY(-2px);
 
     img {
-      transform: scale(1.03);
+      transform: scale(1.07);
     }
   }
 }
@@ -29,7 +29,6 @@
   display: flex;
   flex-direction: row;
 }
-
 
 @media screen and (max-width: 1024px) {
   .CardContainerBottom {

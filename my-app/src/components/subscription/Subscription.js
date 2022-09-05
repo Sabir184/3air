@@ -10,6 +10,7 @@ function Subscription() {
     <>
       <Container>
         <div className="topHrLine" />
+
         <div className="subContainer">
           <h1>Register now to stay up-to-date!</h1>
           <InputGroup>
