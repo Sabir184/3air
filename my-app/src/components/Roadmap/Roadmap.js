@@ -16,10 +16,15 @@ function Roadmap() {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 3.3,
+    slidesToShow: 3.2,
     arrows: false,
-    slidesToScroll: 3,
+    slidesToScroll: 3.2,
     initialSlide: 0,
+    customPaging: function (i) {
+      return <div className="dot"></div>;
+    },
+    dotsClass: 'slick-dots slick-thumb',
+
     responsive: [
       {
         breakpoint: 1024,
@@ -51,7 +56,7 @@ function Roadmap() {
   return (
     <>
       <Container>
-          <h2 className="roadHeaderContainer">Roadmap</h2>
+        <h2 className="roadHeaderContainer">Roadmap</h2>
         <div className="roadOverlay"></div>
 
         <Slider ref={sliderRef} {...settings}>
