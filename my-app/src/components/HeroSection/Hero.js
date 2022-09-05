@@ -13,7 +13,7 @@ function Hero() {
       <Container fluid className="main-hero">
         <Container className="hero">
           <Row>
-            <Col xl={8} lg={8} md={6} sm={12} xsm={12}>
+            <Col xl={8} lg={8} md={12} sm={12} xsm={12}>
               <div className="connectivity">
                 <h1>
                   Connectivity <br />

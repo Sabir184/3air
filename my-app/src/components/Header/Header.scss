@@ -135,16 +135,27 @@
       box-shadow: none;
     }
 
-    // .navbar-toggler-icon{
-    //   background-image: url(../../../public/assets/africa.png) !important;
-    // }
+    .navbar-toggler-icon {
+      background-image: url(../../../public/assets/hamred.svg) !important;
+    }
+    .navbar-toggler-icon:hover {
+      background-image: url(../../../public/assets/crossred.svg) !important;
+    }
+  }
+  .headerWrapperFixed .navbar-toggler-icon {
+    background-image: url(../../../public/assets/hamwhite.svg) !important;
+  }
+  .headerWrapperFixed .navbar-toggler-icon:hover {
+    background-image: url(../../../public/assets/crosswhite.svg) !important;
   }
 }
+
 @media screen and (max-width:767px) {
   .navbar-collapse {
-  top: 10%;
+    top: 10%;
   }
 }
+
 @media screen and (max-width: 1024px) {
   .navbar {
     display: contents;
