@@ -15,7 +15,7 @@ function Team() {
                 <Row>
                     <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
                         <Member
-                            ProfileImage={'/assets/sandi.svg'}
+                            ProfileImage={'assets/sandi.svg'}
                             ProfileLink={'https://www.linkedin.com/in/sandi-bitenc-40228686/'}
                             MemberName={'Sandi Bitenc'}
                             MemberDescription={'Chief Executive Officer'}
@@ -23,7 +23,7 @@ function Team() {
                     </Col>
                     <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
                         <Member
-                            ProfileImage={'/assets/davor.svg'}
+                            ProfileImage={'assets/davor.svg'}
                             ProfileLink={'https://www.linkedin.com/in/davor-%C5%BEic-43889419/'}
                             MemberName={'Davor Žic'}
                             MemberDescription={'Chief Technology Officer'}
@@ -31,7 +31,7 @@ function Team() {
                     </Col>
                     <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
                         <Member
-                            ProfileImage={'/assets/Nejc.svg'}
+                            ProfileImage={'assets/Nejc.svg'}
                             ProfileLink={'https://www.linkedin.com/in/nejcbukovec/'}
                             MemberName={'Nejc Bukovec'}
                             MemberDescription={'Chief Token Relations Officer'}
@@ -39,7 +39,7 @@ function Team() {
                     </Col>
                     <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
                         <Member
-                            ProfileImage={'/assets/rok.svg'}
+                            ProfileImage={'assets/rok.svg'}
                             ProfileLink={'https://www.linkedin.com/in/rok-mihailovi%C4%87-krpan-2a12a114b/'}
                             MemberName={'Rok Mihailović Krpan'}
                             MemberDescription={'Chief Technology Officer'}
@@ -47,7 +47,7 @@ function Team() {
                     </Col>
                     <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
                         <Member
-                            ProfileImage={'/assets/domen.svg'}
+                            ProfileImage={'assets/domen.svg'}
                             ProfileLink={'https://www.linkedin.com/in/dle%C5%A1/'}
                             MemberName={'Domen Leš'}
                             MemberDescription={'Lead Developer'}
@@ -55,7 +55,7 @@ function Team() {
                     </Col>
                     <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
                         <Member
-                            ProfileImage={'/assets/samo.svg'}
+                            ProfileImage={'assets/samo.svg'}
                             ProfileLink={'https://www.linkedin.com/in/samozorger/'}
                             MemberName={'Samo Zorger'}
                             MemberDescription={'Operations Associate'}
@@ -63,7 +63,7 @@ function Team() {
                     </Col>
                     <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
                         <Member
-                            ProfileImage={'/assets/laura.svg'}
+                            ProfileImage={'assets/laura.svg'}
                             ProfileLink={'https://www.linkedin.com/in/laura-p-sterle-7a7397211/'}
                             MemberName={'Laura P. Sterle'}
                             MemberDescription={'Lead Graphic Designer'}
@@ -71,7 +71,7 @@ function Team() {
                     </Col>
                     <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
                         <Member
-                            ProfileImage={'/assets/ruba.svg'}
+                            ProfileImage={'assets/ruba.svg'}
                             ProfileLink={'https://www.linkedin.com/in/ruba-aramouny/'}
                             MemberName={'Ruba Aramouny'}
                             MemberDescription={'Chief Marketing Officer'}
@@ -79,7 +79,7 @@ function Team() {
                     </Col>
                     <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
                         <Member
-                            ProfileImage={'/assets/anita.svg'}
+                            ProfileImage={'assets/anita.svg'}
                             ProfileLink={'https://www.linkedin.com/in/anita-mlakar/'}
                             MemberName={'Anita Mlakar'}
                             MemberDescription={'PR'}
@@ -87,7 +87,7 @@ function Team() {
                     </Col>
                     <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
                         <Member
-                            ProfileImage={'/assets/solome.svg'}
+                            ProfileImage={'assets/solome.svg'}
                             ProfileLink={'https://www.linkedin.com/in/solome-daniel-3b9597177'}
                             MemberName={'Solome Daniel'}
                             MemberDescription={'Ethiopia Operations Coordinator'}
