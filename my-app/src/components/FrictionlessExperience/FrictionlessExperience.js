@@ -50,15 +50,19 @@ function FrictionlessExperience() {
         <div className="statsStyle">
           <div className="statsFirstBlock">
             <Stats StatNum={'1,000+'} StatText={'Mbps/user'} />
-            <div className="statssecondBlock"> <Stats StatNum={'50km'} StatText={'base station range'} /></div>
+            <div className="statssecondBlock">
+              <Stats StatNum={'50km'} StatText={'base station range'} />
+            </div>
           </div>
 
           <div className="statsFirstBlock">
             <Stats StatNum={'15,000'} StatText={'users/base station'} />{' '}
-            <div className="statssecondBlock"><Stats
-              StatNum={'17,000 Mbps'}
-              StatText={'base station (x240 faster than mobile)'}
-            /></div>
+            <div className="statssecondBlock">
+              <Stats
+                StatNum={'17,000 Mbps'}
+                StatText={'base station (x240 faster than mobile)'}
+              />
+            </div>
           </div>
         </div>
       </Container>

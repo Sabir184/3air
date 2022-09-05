@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-  background: linear-gradient(96.68deg, #EC1651 -0.95%, #84ECEF 100.81%);
+  background: linear-gradient(96.68deg, #ec1651 -0.95%, #84ecef 100.81%);
   border-radius: 15px;
   padding: 40px 30px;
 }
@@ -28,8 +28,8 @@
 .statsFirstBlock {
   margin-right: 50px;
 }
-.statssecondBlock{
- margin-top: 20px;
+.statssecondBlock {
+  margin-top: 20px;
 }
 
 .statText {
@@ -41,13 +41,38 @@
 }
 
 @media only screen and (max-width: 1080px) {
-  .statsContainer {
+  .statsStyle {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
+    background-image: none;
   }
-  .statsImageWraper {
-    margin-top: 30px;
+  .statsContainer {
+    background: none;
+    margin-top: 0;
+  }
+  .numTextContainer {
+    border: 2px solid #e9e9ea;
+    border-radius: 15px;
+    width: 100vw;
+  }
+  .statText {
+    font-size: 16px;
+    color: #ed174c;
+  }
+  .statNum {
+    font-size: 36px;
+    color: #ed174c;
+  }
+  .statsFirstBlock {
+    margin-top: 10px;
+  }
+  .statssecondBlock {
+    margin-top: 10px;
+  }
+
+  .statsFirstBlock {
+    margin-right: 0;
   }
 }

@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 
 function Stats({ StatNum, StatText }) {
   return (
-    <Container>
+    <Container className="numTextContainer">
       <div className="statNum">{StatNum}</div>
       <div className="statText">{StatText}</div>
     </Container>
