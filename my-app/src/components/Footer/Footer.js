@@ -8,7 +8,7 @@ function Footer() {
     return (
         <>
             <Container className="footerwrapper">
-                <img src='./assets/logo.svg' alt='Footer-Logo' className='footer-logo' />
+                <img src='./assets/Logo.svg' alt='Footer-Logo' className='footer-logo' />
                 <Row className='footer-wrap'>
                     <Col xl={4} lg={4} md={4} sm={12}>
                         <p className='footer-intro'><span>Connectivity</span> and Banking for the Next Billion
