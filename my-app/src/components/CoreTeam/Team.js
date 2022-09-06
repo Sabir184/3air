@@ -31,7 +31,7 @@ function Team() {
                     </Col>
                     <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
                         <Member
-                            ProfileImage={'./assets/Nejc.svg'}
+                            ProfileImage={'./assets/nejc.svg'}
                             ProfileLink={'https://www.linkedin.com/in/nejcbukovec/'}
                             MemberName={'Nejc Bukovec'}
                             MemberDescription={'Chief Token Relations Officer'}
