@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/esm/Container';
 import FrictionlessCard from '../FrictionlessExperience/FrictionlessCard';
 import SubHeader from '../Subheader/SubHeader';
 import './DefiAndBankingStyles.scss';
+import { motion } from 'framer-motion';
 
 function DefiAndBanking() {
   return (
@@ -19,8 +20,18 @@ function DefiAndBanking() {
         />
       </Container>
 
-      <div className=" BottomSectionContainer">
+      <motion.div
+        className=" BottomSectionContainer"
+        initial={{ y: 5, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        viewport={{ once: false, amount: 0.3 }}
+        transition={{
+          staggerChildren: 0.5,
+          duration: 0.4,
+        }}
+      >
         <Container className="cardIconsContainer">
+          <motion.div></motion.div>
           <FrictionlessCard
             CardText={'Staking & farming'}
             CardImage={'assets/moneyIcon.svg'}
@@ -42,7 +53,7 @@ function DefiAndBanking() {
             CardImage={'assets/gameIcon.svg'}
           />
         </Container>
-      </div>
+      </motion.div>
     </>
   );
 }

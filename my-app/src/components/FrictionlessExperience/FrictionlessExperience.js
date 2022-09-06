@@ -28,30 +28,66 @@ function FrictionlessExperience() {
         }
       />
       <motion.div className="CardContainer">
-        <div className="frictionCards">
+        <motion.div
+          className="frictionCards"
+          initial={{ y: 20, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          viewport={{ once: false, amount: 0.3 }}
+          transition={{
+            staggerChildren: 0.5,
+            duration: 0.4,
+          }}
+        >
           <FrictionlessCard
             CardImage={'assets/hammerIcon.svg'}
             CardText={'No need to dig trenches'}
           />
-        </div>
-        <div className="frictionCards">
+        </motion.div>
+        <motion.div
+          className="frictionCards"
+          initial={{ y: 20, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          viewport={{ once: false, amount: 0.3 }}
+          transition={{
+            staggerChildren: 0.5,
+            duration: 0.43,
+          }}
+        >
           <FrictionlessCard
             CardImage={'assets/tvIcon.svg'}
             CardText={'Digital TV at home and in the app'}
           />
-        </div>
-        <div className="frictionCards">
+        </motion.div>
+        <motion.div
+          className="frictionCards"
+          initial={{ y: 20, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          viewport={{ once: false, amount: 0.3 }}
+          transition={{
+            staggerChildren: 0.5,
+            duration: 0.45,
+          }}
+        >
           <FrictionlessCard
             CardImage={'assets/ipTelephoneIcon.svg'}
             CardText={'IP Telephony to facilitate businesses'}
           />
-        </div>
-        <div className="frictionCards">
+        </motion.div>
+        <motion.div
+          className="frictionCards"
+          initial={{ y: 20, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          viewport={{ once: false, amount: 0.3 }}
+          transition={{
+            staggerChildren: 0.5,
+            duration: 0.47,
+          }}
+        >
           <FrictionlessCard
             CardImage={'assets/badgeIcon.svg'}
             CardText={'Stable, reliable and affordable'}
           />
-        </div>
+        </motion.div>
       </motion.div>
 
       <Container
@@ -65,14 +101,32 @@ function FrictionlessExperience() {
         }}
       >
         <div className="statsStyle">
-          <div className="statsFirstBlock">
+          <motion.div
+            className="statsFirstBlock"
+            initial={{ y: 75, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: false, amount: 0.3 }}
+            transition={{
+              staggerChildren: 0.5,
+              duration: 0.3,
+            }}
+          >
             <Stats StatNum={'1,000+'} StatText={'Mbps/user'} />
             <div className="statssecondBlock">
               <Stats StatNum={'50km'} StatText={'base station range'} />
             </div>
-          </div>
+          </motion.div>
 
-          <div className="statsFirstBlock">
+          <motion.div
+            className="statsFirstBlock"
+            initial={{ y: 75, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: false, amount: 0.3 }}
+            transition={{
+              staggerChildren: 0.5,
+              duration: 0.33,
+            }}
+          >
             <Stats StatNum={'15,000'} StatText={'users/base station'} />{' '}
             <div className="statssecondBlock">
               <Stats
@@ -80,7 +134,7 @@ function FrictionlessExperience() {
                 StatText={'base station (x240 faster than mobile)'}
               />
             </div>
-          </div>
+          </motion.div>
         </div>
       </Container>
     </Container>
