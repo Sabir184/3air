@@ -14,7 +14,7 @@ function Member({ ProfileImage, ProfileLink, MemberName, MemberDescription }) {
                     </a>
                 </div>
                 <div className='memberCard'>
-                    <div className='memberCardInner'>
+                    <div className='memberCardInner'> 
                         <h3>
                             {MemberName}
                         </h3>
