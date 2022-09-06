@@ -35,7 +35,7 @@ function DefiAndBanking() {
           />
           <FrictionlessCard
             CardText={'Vast ecosystem growth opportunities'}
-            CardImage={'assets/ecoIcon.svg'}
+            CardImage={'assets/EcoIcon.svg'}
           />
           <FrictionlessCard
             CardText={'Play and earn and Learn and earn apps'}

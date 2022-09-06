@@ -16,13 +16,13 @@ function NewUsers() {
                         </h3>
                     </div>
                     <div className='users-diagram'>
-                        <img src='/assets/users-diagram.svg' alt='bg' />
+                        <img src='./assets/users-diagram.svg' alt='bg' />
                     </div>
                 </Container>
             </Container>
             <Container className='doll'>
             <div className='users-doll'>
-                <img src='/assets/users-doll.svg' alt='bg' height={330} width={270} />
+                <img src='./assets/users-doll.svg' alt='bg' height={330} width={270} />
             </div>
             </Container>
         </div>

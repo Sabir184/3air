@@ -37,7 +37,7 @@ function Edication() {
             />
           </Col>
           <Col xl={5} lg={5} md={5} sm={12} xsm={12} className="EdicationImageWrapper">
-            <Image src="/assets/EdicationIllustration.svg" width={"100%"}/>
+            <Image src="./assets/EdicationIllustration.svg" width={"100%"}/>
           </Col>
           </Row>
         </Container>

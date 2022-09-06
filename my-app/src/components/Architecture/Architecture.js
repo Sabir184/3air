@@ -11,7 +11,7 @@ function Architecture() {
       <Container fluid className='archMain'>
         <Container fluid className='archInner'>
           <div className='archImage'>
-              <img src="/assets/architectureImg.svg" alt='Architecture'/>
+              <img src="./assets/architectureImg.svg" alt='Architecture'/>
           </div>
         </Container>
       </Container>

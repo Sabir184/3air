@@ -19,15 +19,15 @@ function Backers() {
           Backers
         </h2>
         <Container className="logosContainerBackers">
-          <img height={36} src="/assets/cv.svg" alt="Backers" />
+          <img height={36} src="./assets/cv.svg" alt="Backers" />
 
-          <img height={36} src="/assets/co.svg" alt="Backers" />
+          <img height={36} src="./assets/co.svg" alt="Backers" />
 
-          <img height={36} src="/assets/acacia.svg" alt="Backers" />
+          <img height={36} src="./assets/acacia.svg" alt="Backers" />
 
-          <img height={36} src="/assets/capital.svg" alt="Backers" />
+          <img height={36} src="./assets/capital.svg" alt="Backers" />
 
-          <img height={36} src="/assets/helion.svg" alt="Backers" />
+          <img height={36} src="./assets/helion.svg" alt="Backers" />
         </Container>
       </Container>
     </>

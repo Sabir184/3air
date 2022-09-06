@@ -8,7 +8,7 @@ function Footer() {
     return (
         <>
             <Container className="footerwrapper">
-                <img src='/assets/logo.svg' alt='Footer-Logo' className='footer-logo' />
+                <img src='./assets/logo.svg' alt='Footer-Logo' className='footer-logo' />
                 <Row className='footer-wrap'>
                     <Col xl={4} lg={4} md={4} sm={12}>
                         <p className='footer-intro'><span>Connectivity</span> and Banking for the Next Billion
@@ -43,42 +43,42 @@ function Footer() {
                             <Row>
                                 <Col xl={3} lg={3} md={3} sm={3} xs={3} className="firstsocial">
                                     <a href='https://twitter.com/3aircrypto/' target={"_blank"}  rel='noopener noreferrer'>
-                                        <img src='/assets/twitter.svg' alt='Twitter' />
+                                        <img src='./assets/twitter.svg' alt='Twitter' />
                                     </a>
                                 </Col>
                                 <Col xl={3} lg={3} md={3} sm={3} xs={3} className="firstsocial">
                                     <a href='https://www.instagram.com/3air.crypto/' target={"_blank"}  rel='noopener noreferrer'>
-                                        <img src='/assets/instagram.svg' alt='Instagram' />
+                                        <img src='./assets/instagram.svg' alt='Instagram' />
                                     </a>
                                 </Col>
                                 <Col xl={3} lg={3} md={3} sm={3} xs={3} className="firstsocial">
                                     <a href='https://www.linkedin.com/company/3air-crypto/' target={"_blank"}  rel='noopener noreferrer'>
-                                        <img src='/assets/linkedin2.svg' alt='Linkedin' />
+                                        <img src='./assets/linkedin2.svg' alt='Linkedin' />
                                     </a>
                                 </Col>
                                 <Col xl={3} lg={3} md={3} sm={3} xs={3} className="firstsocial">
                                     <a href='https://www.youtube.com/c/3aircrypto' target={"_blank"}  rel='noopener noreferrer'>
-                                        <img src='/assets/telegram.svg' alt='Youtube' />
+                                        <img src='./assets/telegram.svg' alt='Youtube' />
                                     </a>
                                 </Col>
                                 <Col xl={3} lg={3} md={3} sm={3} xs={3} className="secondsocial">
                                     <a href='https://www.facebook.com/3air-Limitless-connectivity-Unlimited-potential-106301278509550' target={"_blank"}  rel='noopener noreferrer'>
-                                        <img src='/assets/tiktok.svg' alt='Facebook' />
+                                        <img src='./assets/tiktok.svg' alt='Facebook' />
                                     </a>
                                 </Col>
                                 <Col xl={3} lg={3} md={3} sm={3} xs={3} className="secondsocial">
                                     <a href='https://docs.3air.io/ecosystem/milestones-and-metrics/tiktok.com/@3aircrypto' target={"_blank"}  rel='noopener noreferrer'>
-                                        <img src='/assets/discord.svg' alt='Tiktok' />
+                                        <img src='./assets/discord.svg' alt='Tiktok' />
                                     </a>
                                 </Col>
                                 <Col xl={3} lg={3} md={3} sm={3} xs={3} className="secondsocial">
                                     <a href='https://t.me/my3air' target={"_blank"}  rel='noopener noreferrer'>
-                                        <img src='/assets/youtube.svg' alt='Telegram' />
+                                        <img src='./assets/youtube.svg' alt='Telegram' />
                                     </a>
                                 </Col>
                                 <Col xl={3} lg={3} md={3} sm={3} xs={3} className="secondsocial" >
                                     <a href='https://discord.gg/3air' target={"_blank"}  rel='noopener noreferrer'>
-                                        <img src='/assets/facebook.svg' alt='Discord' />
+                                        <img src='./assets/facebook.svg' alt='Discord' />
                                     </a>
                                 </Col>
                             </Row>
