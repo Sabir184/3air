@@ -7,6 +7,7 @@ import { roadmapData } from './data';
 import './RoadmapStyles.scss';
 import Button from 'react-bootstrap/esm/Button';
 import ButtonGroup from 'react-bootstrap/esm/ButtonGroup';
+import { motion } from 'framer-motion';
 
 function Roadmap() {
   const sliderRef = useRef(null);
@@ -61,7 +62,16 @@ function Roadmap() {
 
         <Slider ref={sliderRef} {...settings}>
           {roadmapData.map((item) => (
-            <div ref={sliderRef} className="roadCardWrapper">
+            <motion.div
+              ref={sliderRef}
+              className="roadCardWrapper"
+              initial={{ y: 75, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: false, amount: 0.3 }}
+              transition={{
+                staggerChildren: 0.5,
+              }}
+            >
               <h4 key={item.id} className="roadCarTop">
                 {item.title}
               </h4>
@@ -71,7 +81,7 @@ function Roadmap() {
                   <li key={descItem.id}>{descItem}</li>
                 </div>
               ))}
-            </div>
+            </motion.div>
           ))}
         </Slider>
         <ButtonGroup className="roadmapBtns">

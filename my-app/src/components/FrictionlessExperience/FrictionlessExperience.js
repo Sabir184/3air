@@ -4,14 +4,22 @@ import FrictionlessCard from './FrictionlessCard';
 import './FrictionlessExperienceStyle.scss';
 import Stats from './Stats';
 import Container from 'react-bootstrap/Container';
+import { motion } from 'framer-motion';
 
 function FrictionlessExperience() {
   return (
     <Container className="friction">
-      <div>
+      <motion.div
+        initial={{ y: 75, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        viewport={{ once: false, amount: 0.3 }}
+        transition={{
+          staggerChildren: 0.5,
+        }}
+      >
         <h5 className="HeaderFirstLine">A frictionless experience into</h5>
         <h4 className="HeaderSecondLine">Web3, accessible to all</h4>
-      </div>
+      </motion.div>
       <SubHeader
         subHeaderText={'Connectivity & Entertainment'}
         firstText={'Broadband high-speed Internet, TV and IP Telephony'}
@@ -19,7 +27,7 @@ function FrictionlessExperience() {
           '3air uses innovative, proprietary technology to provide broadband high-speed internet wirelessly through the air.'
         }
       />
-      <div className="CardContainer">
+      <motion.div className="CardContainer">
         <div className="frictionCards">
           <FrictionlessCard
             CardImage={'assets/hammerIcon.svg'}
@@ -44,9 +52,18 @@ function FrictionlessExperience() {
             CardText={'Stable, reliable and affordable'}
           />
         </div>
-      </div>
+      </motion.div>
 
-      <Container className="statsContainer">
+      <Container
+        as={motion.div}
+        className="statsContainer"
+        initial={{ y: 75, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        viewport={{ once: false, amount: 0.3 }}
+        transition={{
+          staggerChildren: 0.5,
+        }}
+      >
         <div className="statsStyle">
           <div className="statsFirstBlock">
             <Stats StatNum={'1,000+'} StatText={'Mbps/user'} />
