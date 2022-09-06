@@ -91,7 +91,7 @@ function Team() {
                             ProfileLink={'https://www.linkedin.com/in/solome-daniel-3b9597177'}
                             MemberName={'Solome Daniel'}
                             MemberDescription={'Ethiopia Operations Coordinator'}
-                        />
+                        /> 
                     </Col>
                 </Row>
             </Container>
