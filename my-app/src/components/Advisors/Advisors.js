@@ -91,7 +91,7 @@ function Advisors() {
                             ProfileLink={'https://uk.linkedin.com/in/michal-domarecki'}
                             MemberName={'Michał Domarecki'}
                             MemberDescription={'Co-CEO Synapse Network'}
-                        />
+                        /> 
                     </Col>
                 </Row>
             </Container>
