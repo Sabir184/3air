@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 function Footer() {
     return (
         <>
-            <Container className="footerwrapper">
+            <Container className="footerwrapper"> 
                 <img src='./assets/Logo.svg' alt='Footer-Logo' className='footer-logo' />
                 <Row className='footer-wrap'>
                     <Col xl={4} lg={4} md={4} sm={12}>
