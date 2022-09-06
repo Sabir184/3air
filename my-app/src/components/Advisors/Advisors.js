@@ -84,7 +84,7 @@ function Advisors() {
                             MemberName={'Dustin Plantholt'}
                             MemberDescription={'Plantholt Advisory Group'}
                         />
-                    </Col>
+                    </Col> 
                     <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
                         <Member
                             ProfileImage={'./assets/michael.svg'}
