@@ -10,9 +10,10 @@ function FrictionlessExperience() {
   return (
     <Container className="friction">
       <motion.div
+        exit={{ opacity: 0 }}
         initial={{ y: 75, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: false, amount: 0.5 }}
         transition={{
           staggerChildren: 0.5,
         }}
@@ -32,7 +33,7 @@ function FrictionlessExperience() {
           className="frictionCards"
           initial={{ y: 20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          viewport={{ once: false, amount: 0.3 }}
+          viewport={{ once: false, amount: 0.2 }}
           transition={{
             staggerChildren: 0.5,
             duration: 0.4,
@@ -47,7 +48,7 @@ function FrictionlessExperience() {
           className="frictionCards"
           initial={{ y: 20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          viewport={{ once: false, amount: 0.3 }}
+          viewport={{ once: false, amount: 0.2 }}
           transition={{
             staggerChildren: 0.5,
             duration: 0.43,
@@ -62,7 +63,7 @@ function FrictionlessExperience() {
           className="frictionCards"
           initial={{ y: 20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          viewport={{ once: false, amount: 0.3 }}
+          viewport={{ once: false, amount: 0.2 }}
           transition={{
             staggerChildren: 0.5,
             duration: 0.45,
@@ -77,7 +78,7 @@ function FrictionlessExperience() {
           className="frictionCards"
           initial={{ y: 20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          viewport={{ once: false, amount: 0.3 }}
+          viewport={{ once: false, amount: 0.2 }}
           transition={{
             staggerChildren: 0.5,
             duration: 0.47,
@@ -95,7 +96,7 @@ function FrictionlessExperience() {
         className="statsContainer"
         initial={{ y: 75, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: false, amount: 0.2 }}
         transition={{
           staggerChildren: 0.5,
         }}
@@ -105,7 +106,7 @@ function FrictionlessExperience() {
             className="statsFirstBlock"
             initial={{ y: 75, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.2 }}
             transition={{
               staggerChildren: 0.5,
               duration: 0.3,
@@ -121,7 +122,7 @@ function FrictionlessExperience() {
             className="statsFirstBlock"
             initial={{ y: 75, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.2 }}
             transition={{
               staggerChildren: 0.5,
               duration: 0.33,

@@ -11,7 +11,7 @@ function DigitalCard({ CardImage, CardText }) {
         as={motion.div}
         initial={{ y: 75, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: false, amount: 0.2 }}
         transition={{
           staggerChildren: 0.5,
         }}
