@@ -1,21 +1,7 @@
-.advisors {
-  margin-top: 70px;
-}
-.advisors h2 {
-  font-weight: 800;
-  font-size: 38px;
-  line-height: 53px;
-  text-transform: uppercase;
-  color: #ec1651;
-}
 .advisors-members {
-  margin-top: 30px;
-}
-
-@media only screen and (max-width: 1080px) {
-  .advisors > h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }

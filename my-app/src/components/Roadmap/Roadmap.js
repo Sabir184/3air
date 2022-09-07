@@ -39,7 +39,7 @@ function Roadmap() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1.3,
+          slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
         },
@@ -47,7 +47,7 @@ function Roadmap() {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1.1,
           slidesToScroll: 1,
         },
       },
@@ -72,7 +72,7 @@ function Roadmap() {
                 staggerChildren: 0.5,
               }}
             >
-              <h4 key={item.id} className="roadCarTop">
+              <h4 key={item.id} className="roadCardTop">
                 {item.title}
               </h4>
 
