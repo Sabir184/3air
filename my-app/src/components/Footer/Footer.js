@@ -131,7 +131,7 @@ function Footer() {
                   className="secondsocial"
                 >
                   <a
-                    href="https://www.facebook.com/3air-Limitless-connectivity-Unlimited-potential-106301278509550"
+                    href="https://www.tiktok.com/@3aircrypto"
                     target={'_blank'}
                     rel="noopener noreferrer"
                   >
