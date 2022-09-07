@@ -55,7 +55,7 @@ function Footer() {
             <ul className="footer-links">
               <li>
                 <a
-                  href="https://docs.3air.io/ecosystem/overview/"
+                  href="https://app.3air.io/"
                   target={'_blank'}
                   rel="noopener noreferrer"
                 >
@@ -78,11 +78,7 @@ function Footer() {
             lg={3}
             md={3}
             sm={12}
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              flexDirection: 'column',
-            }}
+            style={{ display: 'flex', alignItems: 'center' }}
           >
             <Container className="socialmedia">
               <Row>
@@ -92,7 +88,7 @@ function Footer() {
                     target={'_blank'}
                     rel="noopener noreferrer"
                   >
-                    <img src="./assets/twitter.svg" alt="Twitter" />
+                    <img src="./assets/twitter.svg" alt="twitter" />
                   </a>
                 </Col>
                 <Col xl={3} lg={3} md={3} sm={3} xs={3} className="firstsocial">
@@ -101,7 +97,7 @@ function Footer() {
                     target={'_blank'}
                     rel="noopener noreferrer"
                   >
-                    <img src="./assets/instagram.svg" alt="Instagram" />
+                    <img src="./assets/instagram.svg" alt="instagram" />
                   </a>
                 </Col>
                 <Col xl={3} lg={3} md={3} sm={3} xs={3} className="firstsocial">
@@ -110,7 +106,7 @@ function Footer() {
                     target={'_blank'}
                     rel="noopener noreferrer"
                   >
-                    <img src="./assets/linkedin2.svg" alt="Linkedin" />
+                    <img src="./assets/linkedin2.svg" alt="linkedin" />
                   </a>
                 </Col>
                 <Col xl={3} lg={3} md={3} sm={3} xs={3} className="firstsocial">
@@ -119,7 +115,7 @@ function Footer() {
                     target={'_blank'}
                     rel="noopener noreferrer"
                   >
-                    <img src="./assets/telegram.svg" alt="Youtube" />
+                    <img src="./assets/youtube.svg" alt="youtube" />
                   </a>
                 </Col>
                 <Col
@@ -135,7 +131,7 @@ function Footer() {
                     target={'_blank'}
                     rel="noopener noreferrer"
                   >
-                    <img src="./assets/tiktok.svg" alt="Facebook" />
+                    <img src="./assets/tiktok.svg" alt="tiktok" />
                   </a>
                 </Col>
                 <Col
@@ -147,11 +143,11 @@ function Footer() {
                   className="secondsocial"
                 >
                   <a
-                    href="https://docs.3air.io/ecosystem/milestones-and-metrics/tiktok.com/@3aircrypto"
+                    href="https://discord.com/invite/3air/"
                     target={'_blank'}
                     rel="noopener noreferrer"
                   >
-                    <img src="./assets/discord.svg" alt="Tiktok" />
+                    <img src="./assets/discord.svg" alt="discord" />
                   </a>
                 </Col>
                 <Col
@@ -163,11 +159,11 @@ function Footer() {
                   className="secondsocial"
                 >
                   <a
-                    href="https://t.me/my3air"
+                    href="https://www.youtube.com/c/3aircrypto"
                     target={'_blank'}
                     rel="noopener noreferrer"
                   >
-                    <img src="./assets/youtube.svg" alt="Telegram" />
+                    <img src="./assets/youtube.svg" alt="youtube" />
                   </a>
                 </Col>
                 <Col
@@ -179,11 +175,27 @@ function Footer() {
                   className="secondsocial"
                 >
                   <a
-                    href="https://discord.gg/3air"
+                    href="https://t.me/my3air/"
                     target={'_blank'}
                     rel="noopener noreferrer"
                   >
-                    <img src="./assets/facebook.svg" alt="Discord" />
+                    <img src="./assets/telegram.svg" alt="telegram" />
+                  </a>
+                </Col>
+                <Col
+                  xl={3}
+                  lg={3}
+                  md={3}
+                  sm={3}
+                  xs={3}
+                  className="secondsocial"
+                >
+                  <a
+                    href="https://www.facebook.com/3aircrypto"
+                    target={'_blank'}
+                    rel="noopener noreferrer"
+                  >
+                    <img src="./assets/fb.svg" alt="facebook" />
                   </a>
                 </Col>
               </Row>
