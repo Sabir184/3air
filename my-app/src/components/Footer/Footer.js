@@ -110,14 +110,7 @@ function Footer() {
                   </a>
                 </Col>
 
-                <Col
-                  xl={3}
-                  lg={3}
-                  md={3}
-                  sm={3}
-                  xs={3}
-                  className="secondsocial"
-                >
+                <Col xl={3} lg={3} md={3} sm={3} xs={3} className="firstsocial">
                   <a
                     href="https://www.tiktok.com/@3aircrypto"
                     target={'_blank'}
