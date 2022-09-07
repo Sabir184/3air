@@ -1,116 +1,111 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './Team.scss';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Member from '../MembersProfile/Member';
 import { motion } from 'framer-motion';
+import Slider from 'react-slick';
+import { teamData } from './data';
+import Button from 'react-bootstrap/esm/Button';
+import ButtonGroup from 'react-bootstrap/esm/ButtonGroup';
 
 function Team() {
+  const sliderRef = useRef(null);
+  console.log(sliderRef.current);
+
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3.2,
+    arrows: false,
+    slidesToScroll: 3.2,
+    initialSlide: 0,
+    customPaging: function (i) {
+      return <div className="dot"></div>;
+    },
+    dotsClass: 'slick-dots slick-thumb',
+
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1.1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <>
-      <Container className="team" id="team">
-        <h2>Core Team</h2>
-      </Container>
-      <Container
-        as={motion.div}
-        initial={{ y: 10, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        viewport={{ once: false, amount: 0.3 }}
-        transition={{
-          staggerChildren: 0.5,
-        }}
-      >
-        <Row>
-          <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
-            <Member
-              ProfileImage={'./assets/sandi.svg'}
-              ProfileLink={'https://www.linkedin.com/in/sandi-bitenc-40228686/'}
-              MemberName={'Sandi Bitenc'}
-              MemberDescription={'Chief Executive Officer'}
-            />
-          </Col>
-          <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
-            <Member
-              ProfileImage={'./assets/davor.svg'}
-              ProfileLink={
-                'https://www.linkedin.com/in/davor-%C5%BEic-43889419/'
-              }
-              MemberName={'Davor Žic'}
-              MemberDescription={'Chief Technology Officer'}
-            />
-          </Col>
-          <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
-            <Member
-              ProfileImage={'./assets/nejc.svg'}
-              ProfileLink={'https://www.linkedin.com/in/nejcbukovec/'}
-              MemberName={'Nejc Bukovec'}
-              MemberDescription={'Chief Token Relations Officer'}
-            />
-          </Col>
-          <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
-            <Member
-              ProfileImage={'./assets/rok.svg'}
-              ProfileLink={
-                'https://www.linkedin.com/in/rok-mihailovi%C4%87-krpan-2a12a114b/'
-              }
-              MemberName={'Rok Mihailović Krpan'}
-              MemberDescription={'Chief Technology Officer'}
-            />
-          </Col>
-          <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
-            <Member
-              ProfileImage={'./assets/domen.svg'}
-              ProfileLink={'https://www.linkedin.com/in/dle%C5%A1/'}
-              MemberName={'Domen Leš'}
-              MemberDescription={'Lead Developer'}
-            />
-          </Col>
-          <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
-            <Member
-              ProfileImage={'./assets/samo.svg'}
-              ProfileLink={'https://www.linkedin.com/in/samozorger/'}
-              MemberName={'Samo Zorger'}
-              MemberDescription={'Operations Associate'}
-            />
-          </Col>
-          <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
-            <Member
-              ProfileImage={'./assets/laura.svg'}
-              ProfileLink={
-                'https://www.linkedin.com/in/laura-p-sterle-7a7397211/'
-              }
-              MemberName={'Laura P. Sterle'}
-              MemberDescription={'Lead Graphic Designer'}
-            />
-          </Col>
-          <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
-            <Member
-              ProfileImage={'./assets/ruba.svg'}
-              ProfileLink={'https://www.linkedin.com/in/ruba-aramouny/'}
-              MemberName={'Ruba Aramouny'}
-              MemberDescription={'Chief Marketing Officer'}
-            />
-          </Col>
-          <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
-            <Member
-              ProfileImage={'./assets/anita.svg'}
-              ProfileLink={'https://www.linkedin.com/in/anita-mlakar/'}
-              MemberName={'Anita Mlakar'}
-              MemberDescription={'PR'}
-            />
-          </Col>
-          <Col xlg={3} lg={3} md={4} sm={12} xsm={12} className="team-members">
-            <Member
-              ProfileImage={'./assets/solome.svg'}
-              ProfileLink={
-                'https://www.linkedin.com/in/solome-daniel-3b9597177'
-              }
-              MemberName={'Solome Daniel'}
-              MemberDescription={'Ethiopia Operations Coordinator'}
-            />
-          </Col>
-        </Row>
+      <Container>
+        <h2 className="roadHeaderContainer">Team</h2>
+        <div className="roadOverlay"></div>
+
+        <Slider ref={sliderRef} {...settings}>
+          {teamData.map((item) => (
+            <div ref={sliderRef} className="team-members">
+              <div className="members">
+                <div className="members-images">
+                  <img src={item.img} alt="Profile" />
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="linkedin"
+                  >
+                    <img src="./assets/linkedin.svg" alt="Linkedin" />
+                  </a>
+                </div>
+                <div className="memberCard">
+                  <div className="memberCardInner">
+                    <h3>{item.name}</h3>
+                    <p>{item.desc}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </Slider>
+        <ButtonGroup className="roadmapBtns">
+          <Button
+            className="arrowBtnContainer"
+            onClick={() => sliderRef.current.slickPrev()}
+          >
+            <div className="arrowBtn">
+              <span className="join" />
+              <img src="assets/prevArrowIcon.svg" alt="arrow" />
+            </div>
+          </Button>
+          <Button
+            className="arrowBtnContainer"
+            onClick={() => sliderRef.current.slickNext()}
+          >
+            <div className="arrowBtn">
+              <span className="join" />
+              <img src="assets/nextArrowIcon.svg" alt="arrow" />
+            </div>
+          </Button>
+        </ButtonGroup>
       </Container>
     </>
   );

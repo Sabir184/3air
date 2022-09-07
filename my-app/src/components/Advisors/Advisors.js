@@ -58,7 +58,7 @@ function Advisors() {
   return (
     <>
       <Container>
-        <h2 className="roadHeaderContainer">Roadmap</h2>
+        <h2 className="roadHeaderContainer">Advisors</h2>
         <div className="roadOverlay"></div>
 
         <Slider ref={sliderRef} {...settings}>
