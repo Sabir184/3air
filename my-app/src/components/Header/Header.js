@@ -68,9 +68,6 @@ export default function Header() {
           </div>
 
           <Nav className={menu_class}>
-            <Nav.Link onClick={updateMenu} href="#">
-              Home
-            </Nav.Link>
             <Nav.Link onClick={updateMenu} href="#team">
               Team
             </Nav.Link>
