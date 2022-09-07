@@ -109,15 +109,7 @@ function Footer() {
                     <img src="./assets/linkedin2.svg" alt="linkedin" />
                   </a>
                 </Col>
-                <Col xl={3} lg={3} md={3} sm={3} xs={3} className="firstsocial">
-                  <a
-                    href="https://www.youtube.com/c/3aircrypto"
-                    target={'_blank'}
-                    rel="noopener noreferrer"
-                  >
-                    <img src="./assets/youtube.svg" alt="youtube" />
-                  </a>
-                </Col>
+
                 <Col
                   xl={3}
                   lg={3}
