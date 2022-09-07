@@ -80,7 +80,7 @@ export const advisorsData = [
   {
     id: 10,
     name: 'Adedayo Adebajo',
-    desc: ['MD at Jelurida Africa'],
+    desc: ['MD at Jelurida Africa, Blockchain Advisor'],
     img: ['./assets/adedayo.svg'],
     link: [
       'https://www.linkedin.com/in/adedayo-adebajo-61b908b9/overlay/photo/',
