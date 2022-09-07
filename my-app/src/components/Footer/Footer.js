@@ -73,7 +73,17 @@ function Footer() {
               </li>
             </ul>
           </Col>
-          <Col xl={3} lg={3} md={3} sm={12}>
+          <Col
+            xl={3}
+            lg={3}
+            md={3}
+            sm={12}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              flexDirection: 'column',
+            }}
+          >
             <Container className="socialmedia">
               <Row>
                 <Col xl={3} lg={3} md={3} sm={3} xs={3} className="firstsocial">
