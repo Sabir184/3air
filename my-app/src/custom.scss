@@ -12,9 +12,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  box-sizing: border-box;
   overflow-x: hidden !important;
-  margin: 0;
 
   ::-moz-selection {
     /* Code for Firefox */
@@ -26,8 +24,6 @@ body {
     color: #84ecef;
     background: #ec1651;
   }
-  
-  
 }
 
 .scroll {

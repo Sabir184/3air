@@ -42,40 +42,68 @@ export default function Header() {
         <Navbar.Brand href="#">
           {fix ? (
             <Image
+              className="header-brand"
               src="./assets/airLogoWhite.svg"
               height={'38px'}
               width={'94px'}
             />
           ) : (
-            <Image src="./assets/Logo.svg" height={'48px'} width={'114px'} />
+            <Image
+              className="header-brand"
+              src="./assets/Logo.svg"
+              height={'48px'}
+              width={'114px'}
+            />
           )}
         </Navbar.Brand>
         <div className="nav-items">
           {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
-          <div className="burger-menu" onClick={updateMenu}>
+          <div
+            className={fix ? 'burger-menu-fixed' : 'burger-menu'}
+            onClick={updateMenu}
+          >
             <div className={burger_class}></div>
             <div className={burger_class}></div>
             <div className={burger_class}></div>
           </div>
-          <div></div>
 
           <Nav className={menu_class}>
-            <Nav.Link href="#">Home</Nav.Link>
-            <Nav.Link href="#team">Team</Nav.Link>
+            <Nav.Link onClick={updateMenu} href="#team">
+              Team
+            </Nav.Link>
 
-            <Nav.Link href="https://blog.3air.io/" target={'_blank'}>
+            <Nav.Link
+              onClick={updateMenu}
+              href="https://blog.3air.io/"
+              target={'_blank'}
+            >
               Blog
             </Nav.Link>
             <Nav.Link
+              onClick={updateMenu}
               href="https://docs.3air.io/tokenomics/3air-tokenomics/"
               target={'_blank'}
             >
               Tokenomics
             </Nav.Link>
-            <Nav.Link href="#app">App</Nav.Link>
+            <Nav.Link
+              target={'_blank'}
+              onClick={updateMenu}
+              href="https://app.3air.io/"
+            >
+              App
+            </Nav.Link>
 
-            <Nav.Link href="#staking">Staking</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link
+              onClick={updateMenu}
+              target="_blank"
+              href="https://blog.3air.io/early-staking-pools/"
+            >
+              Staking
+            </Nav.Link>
+            <Nav.Link onClick={updateMenu} href="#footer">
+              Contact
+            </Nav.Link>
           </Nav>
         </div>
       </Container>

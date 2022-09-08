@@ -16,7 +16,7 @@ function Backers() {
             marginBottom: '30px',
           }}
         >
-          Backers
+          BACKERS
         </h2>
         <Container className="logosContainerBackers">
           <img height={36} src="./assets/cv.svg" alt="Backers" />

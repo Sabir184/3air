@@ -16,7 +16,7 @@ function Partners() {
             marginBottom: '30px',
           }}
         >
-          Partners
+          PARTNERS
         </h2>
 
         <Container className="logosContainer">
