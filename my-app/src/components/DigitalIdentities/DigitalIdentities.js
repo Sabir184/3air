@@ -28,7 +28,7 @@ function DigitalIdentities() {
           CardImage={'assets/fingerPrintIcon.svg'}
         />
         <DigitalCard
-          CardText={'Identity-as-a-service by ISPs for additional revenue'}
+          CardText={'Potentially recognizable throughout the ecosystem'}
           CardImage={'assets/identityIcon.svg'}
         />
       </div>
